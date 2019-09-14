@@ -1,0 +1,88 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: journal 2.aux
+The style file: IEEEtran.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: references.bib
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty booktitle in 1
+Warning--empty booktitle in 2
+Warning--empty booktitle in 4
+Warning--empty booktitle in 5
+Warning--empty booktitle in 6
+Warning--empty booktitle in 8
+Warning--empty booktitle in 9
+Warning--empty booktitle in 10
+Warning--empty booktitle in 11
+Warning--empty booktitle in 12
+Warning--empty year in 12
+Warning--empty booktitle in 13
+Warning--empty year in 13
+Warning--empty booktitle in 14
+Warning--empty year in 14
+Warning--empty booktitle in 15
+Warning--empty year in 15
+Warning--empty booktitle in 16
+Warning--empty year in 16
+Warning--empty booktitle in 17
+Warning--empty year in 17
+Warning--empty booktitle in 19
+Warning--empty year in 19
+Warning--empty booktitle in 20
+Warning--empty year in 20
+Warning--empty booktitle in 21
+Warning--empty year in 21
+Warning--empty booktitle in 22
+Warning--empty booktitle in 23
+Warning--empty year in 23
+Warning--empty booktitle in 24
+
+Done.
+You've used 21 entries,
+            4087 wiz_defined-function locations,
+            894 strings with 10312 characters,
+and the built_in function-call counts, 9081 in all, are:
+= -- 541
+> -- 222
+< -- 5
++ -- 104
+- -- 52
+* -- 373
+:= -- 1410
+add.period$ -- 53
+call.type$ -- 21
+change.case$ -- 21
+chr.to.int$ -- 0
+cite$ -- 52
+duplicate$ -- 809
+empty$ -- 1078
+format.name$ -- 66
+if$ -- 2107
+int.to.chr$ -- 0
+int.to.str$ -- 21
+missing$ -- 143
+newline$ -- 86
+num.names$ -- 21
+pop$ -- 524
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 692
+stack$ -- 0
+substring$ -- 37
+swap$ -- 364
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 21
+warning$ -- 31
+while$ -- 26
+width$ -- 23
+write$ -- 165
+(There were 31 warnings)
