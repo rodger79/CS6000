@@ -1,0 +1,56 @@
+\documentclass{article}
+\renewcommand{\thesubsection}{\thesection.\alph{subsection}}
+
+\addtolength{\oddsidemargin}{-.875in}
+\addtolength{\evensidemargin}{-.875in}
+\addtolength{\textwidth}{1.75in}
+\addtolength{\topmargin}{-.875in}
+\addtolength{\textheight}{1.75in}
+	
+\usepackage{bm}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{tikz}
+\usetikzlibrary{automata,positioning}
+\usepackage{url}
+\usepackage{float}
+\usepackage{setspace}
+
+
+\begin{document}
+\raggedright
+\doublespacing
+
+\title{Low Level Implementation of a Turing Machine}
+\author{Rodger Byrd}
+\maketitle
+For this project I am implementing the following language $A=\{a^{n}b^{n}c^{n}d^{n}e^{n} \vert n \geq 0\}$ as a Turing Machine with JFLAP\cite{jflap}.
+
+\section{Turing Machine Definition}
+The following Turing Machine T decides $A=\{a^{n}b^{n}c^{n}d^{n}e^{n} \vert n \geq 0\}$:\break
+T = "on input w where w $ \in \sum$:\\
+\hspace{20 pt} 0. On empty input string accept, otherwise go to step 1\\
+\hspace{20 pt} 1. Mark one a with an u, if there are no more a's go to step 7\\
+\hspace{20 pt} 2. Mark one b with an v, if there are not b's to mark reject\\
+
+\hspace{20 pt} 8. If no a's, b's, c's, d's, or e's remain on the tape accept."
+\section{Turing Machine Implementation}
+The following descirbes the implementation shown in Figure 1. The implementation files are in the github repository \cite{git}.\\
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{headshot.jpg}
+  \caption{Turing Machine}
+  \label{fig:TM1}
+\end{figure}
+
+
+\section{Turing Machine Testing}
+To test the TM, I created a shell script to generate test input strings of various lengths. It is called \path{createteststrings.sh}. It creates random strings in the language to see if any are accepted by the turing machine. The files I used for testing were \path{testfile_abcde_rand.txt} and LAP.
+
+\begin{thebibliography}{9}
+\bibitem{git} 
+Project github, \\\path{https://github.com/rodger79/5700-TuringMachine}
+\bibitem{jflap} 
+JFLAP, \\\path{http://www.jflap.org/getjflap.html}
+\end{thebibliography}
+
+\end{document}
