@@ -16,45 +16,45 @@ Warning--empty journal in noauthor_iet_nodate
 Warning--empty year in noauthor_iet_nodate
 
 Done.
-You've used 3 entries,
+You've used 58 entries,
             4087 wiz_defined-function locations,
-            839 strings with 7911 characters,
-and the built_in function-call counts, 2630 in all, are:
-= -- 207
-> -- 51
-< -- 30
-+ -- 29
-- -- 6
-* -- 178
-:= -- 409
-add.period$ -- 6
-call.type$ -- 3
-change.case$ -- 3
-chr.to.int$ -- 72
-cite$ -- 6
-duplicate$ -- 165
-empty$ -- 175
-format.name$ -- 8
-if$ -- 573
+            1114 strings with 21056 characters,
+and the built_in function-call counts, 61991 in all, are:
+= -- 5305
+> -- 1370
+< -- 784
++ -- 736
+- -- 175
+* -- 3822
+:= -- 9326
+add.period$ -- 116
+call.type$ -- 58
+change.case$ -- 58
+chr.to.int$ -- 1839
+cite$ -- 61
+duplicate$ -- 3868
+empty$ -- 4042
+format.name$ -- 231
+if$ -- 14140
 int.to.chr$ -- 0
-int.to.str$ -- 3
-missing$ -- 24
-newline$ -- 38
-num.names$ -- 2
-pop$ -- 48
+int.to.str$ -- 58
+missing$ -- 578
+newline$ -- 313
+num.names$ -- 57
+pop$ -- 939
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 181
+skip$ -- 4473
 stack$ -- 0
-substring$ -- 163
-swap$ -- 158
-text.length$ -- 6
+substring$ -- 4164
+swap$ -- 4065
+text.length$ -- 171
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 3
+type$ -- 58
 warning$ -- 3
-while$ -- 10
-width$ -- 4
-write$ -- 58
+while$ -- 285
+width$ -- 60
+write$ -- 828
 (There were 3 warnings)
