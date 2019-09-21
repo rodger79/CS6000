@@ -33,7 +33,8 @@ For this Journal, I used Zotero to track all of my bibliography entries and note
 For the "top" journal I chose IET Information Security \cite{noauthor_iet_nodate}. It had 5 issues in 2019 with 10-12 articles per issue. My filed of study is related to both Compute Science and Computer Security so I thought this would include relevant papers for me to read. My process included 3 phases. 
 First, quickly browse each paper using my phone as a stopwatch to determine if I wanted to scan or trash the paper with a note about why.
 Secondly, I did a 5-10 minute scan of the papers chosen in phase 1 to determine if I wanted to critically and creatively read them.
-Lastly, I chose the best 2 papers and read them tracking my notes. The notes are included in the next section.
+Lastly, I chose the best 2 papers and read them tracking my notes. The notes are included in the next section. 
+The files for this latex document are in the github repository located at \path{https://github.com/rodger79/CS6000}.
 
 \section{Raw Notes}
 For my first detailed read I chose a paper called  \textit{Re-definable access control over outsourced data in cloud storage systems} \cite{zhang_re-definable_2019}.The following are my raw notes for this paper.
@@ -59,6 +60,19 @@ They could have done a better job explaining the implementation and doing perfor
 
 For my next detailed read I chose a paper called  \textit{Causal analysis of attacks against honeypots based on properties of countries} \cite{zuzcak_causal_2019}. The following are my raw notes for this paper.
 
+After setting up a honeypot, the authors looks at the demographic, technical, and economic data of the countries the attacks originated from. This could be interesting from a threat perspective, as-in can you use the country of request origination to determine relevant threat levels.
+They state they are attempting to clarify the relation between the number of attacks and their countries of origin. 
+Set up a "honeynet", collection of 7 honeypots directly on the internet for 1 year.
+Big assumption that you can actually determine an attacker from their IP address, unclear how they actually determined this other than they say they used databases in 3.3. 
+Oh, the databases weren't for location information they were for exonomic data/demographic data
+With VPNs and Tor, I seriously question whether any statistical analysis is even valid.
+A lot of sections on statistics.
+Seems like they just gathered a bunch of data then tried to write a paper after.
+Meaning come up with the hypothesis later.
+I wonder if you could do a second analysis overlaying where Tor is banned to see how that affects the countries of origin.
+For instance, they claim the Netherlands have an unusual amount of attacks coming from them, do they also have a lot of Tor nodes?
+I think the idea behind this paper is interesting, but they don't mention once about VPNs. 
+Huge potential problem
 
 
 
