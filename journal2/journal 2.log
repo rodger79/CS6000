@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.4.21)  14 SEP 2019 14:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.4.21)  21 SEP 2019 11:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -651,11 +651,18 @@ Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
 
 (./journal 2.bbl
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no © in font ptmr7t!
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no © in font ptmr7t!
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+LaTeX Font Info:    Try loading font information for U+msa on input line 27.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
+LaTeX Font Info:    Try loading font information for U+msb on input line 27.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -672,16 +679,16 @@ Before submitting the final camera ready copy, remember to:
 
 ] (./journal 2.aux) ) 
 Here is how much of TeX's memory you used:
- 14117 strings out of 492982
- 285495 string characters out of 6134896
- 437680 words of memory out of 5000000
- 17421 multiletter control sequences out of 15000+600000
- 29668 words of font info for 59 fonts, out of 8000000 for 9000
+ 14158 strings out of 492982
+ 286206 string characters out of 6134896
+ 431608 words of memory out of 5000000
+ 17432 multiletter control sequences out of 15000+600000
+ 36178 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,8n,66p,429b,240s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,8n,66p,429b,364s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc
 }</usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on "journal 2.pdf" (1 page, 23675 bytes).
+Output written on "journal 2.pdf" (1 page, 20198 bytes).
 PDF statistics:
  16 PDF objects out of 1000 (max. 8388607)
  11 compressed objects within 1 object stream
