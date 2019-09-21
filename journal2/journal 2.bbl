@@ -27,4 +27,14 @@
   Available: \url{https://digital-library.theiet.org/content/journals/iet-ifs}
 \BIBentrySTDinterwordspacing
 
+\bibitem{zhang_re-definable_2019}
+\BIBentryALTinterwordspacing
+Z.~Zhang, C.~Chang, Z.~Guo, and P.~Han,
+  ``\BIBforeignlanguage{English}{Re-definable access control over outsourced
+  data in cloud storage systems},'' \emph{\BIBforeignlanguage{English}{IET
+  Information Security}}, vol.~13, no.~3, pp. 258--268(10), May 2019. [Online].
+  Available:
+  \url{https://digital-library.theiet.org/content/journals/10.1049/iet-ifs.2018.5365}
+\BIBentrySTDinterwordspacing
+
 \end{thebibliography}

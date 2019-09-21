@@ -15,7 +15,6 @@
 \usepackage{url}
 \usepackage{float}
 \usepackage{setspace}
-%\usepackage{IEEEtran}
 \usepackage{filecontents,lipsum}
 \usepackage[noadjust]{cite}
 
@@ -37,7 +36,33 @@ Secondly, I did a 5-10 minute scan of the papers chosen in phase 1 to determine 
 Lastly, I chose the best 2 papers and read them tracking my notes. The notes are included in the next section.
 
 \section{Raw Notes}
-The second section is your raw notes from critical/creative reads as a latex document, and include all the papers in the references. Not expecting/wanting full sentences, grammar, want your raw notes.  If you use handwritten notes, you can take pic and include them as figures. 
+For my first detailed read I chose a paper called  \textit{Re-definable access control over outsourced data in cloud storage systems} \cite{zhang_re-definable_2019}.The following are my raw notes for this paper.
+
+
+Authors propose RDAC as approach to secure outsourced data and allow access control. Interesting idea to take encrypted data and somehow conver that to another type of encrypted data that could be decrypted by authorized users based on different criteria than original encryptor.
+How does the IBE (identity based encryption) actually convert to ABE (attribute based encryption). 
+Seems non-trivial.
+I can see how a company would use ABE or IBE/PKI, curious to see how they propose to convert from one to the other. 
+conversion keys? Multiple pages on how great ABE and IBE are, but they are proposing RDAC (re-difinable access control). Use a bunch of set theory to define who should get access to what.
+Looks like a proxy server will decide whether to decrypt data out of IBE for approved users
+Even more detail on IBE and ABE in section 5.3.
+6.1 Basic idea, just restate everying already talked about in detail, waste of a section.
+Looking back at the system architecture, it doesn't show hot the Trusted Authority would authorize the proxy do do the "re-encryption"?
+They are finally talking about a master secret key (msk). 
+finally, section 6.2.4 File conversion.
+Still claiming that it doesn't need to be decrypted, just converted to another encryption, i'm not convinced, hopefully they built some actual system.
+Experimental section 8.2 included more information about performance of different encryption then the conversion process. 
+I think this is more of a toy example. I'd like to see something more comphrensive then a few small tests on a mobile device and PC.
+Overall, dissapointed in this paper, although I can see how the concept is very relevant with so many companies outsourcing to the cloud. 
+They could have done a better job explaining the implementation and doing performance testing.
+
+
+For my next detailed read I chose a paper called  \textit{Causal analysis of attacks against honeypots based on properties of countries} \cite{zuzcak_causal_2019}. The following are my raw notes for this paper.
+
+
+
+
+
 
 
 
