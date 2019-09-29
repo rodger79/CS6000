@@ -17,6 +17,7 @@
 \usepackage{setspace}
 \usepackage{filecontents,lipsum}
 \usepackage[noadjust]{cite}
+\usepackage{listings}
 
 \begin{document}
 %\raggedright
@@ -36,14 +37,29 @@ Up until this class I would go onto the UCCS library website and use the researc
 It has been very helpful to set up my google scholar profile to automatically show the papers I can download through my UCCS credentails.
 I have a couple of things on my to-do list.
 I need to speak with Prof Boult about how to get a private github as a student, as that would be very useful, and I have a handful of questions I would like to get his opinion on. 
+One thing I want to focus on is very recent relevant papers.
+Fortunately google scholar allows you to researc only papers that have been written since a particular year.
 
 \section{Journal 4}
 \subsection{Who is the Main Character}
-The main character is the anti-pattern. I need to find a way to clearly define the anti-pattern. 
+The main character is the anti-pattern. I need to find a way to clearly define the anti-pattern conceptually. 
+
+\begin{lstlisting}[language=C,frame=single,caption=Example Anti-Pattern,label=pattern1]
+#DEFINE M 2+3
+
+int main() {
+  int x=5, y;
+  y= x * M;
+  cout << y << endl;
+  return 0;
+}
+\end{lstlisting}
+
 There are some authors who define it as interchangeable as a code smell. 
 I don't think that is correct. 
 I think code smells are precursors to anti-patterns. 
-Meaning that an anti-pattern is a known bad problem, where a code smell may lead to a problem. 
+Meaning that an anti-pattern is a known bad problem, where a code smell may lead to a problem.
+An example anti-pattern is shown in listing \ref{pattern1}.
 
 On second thought, is the character the developer? 
 And is what is interesting about it their human nature which leads them to confusion?
@@ -67,9 +83,20 @@ The best practices should be created in such a way that the typical misunderstan
 Note: not many papers about code smells talk about why it is important.
 
 \subsection{What Conflicts/Problems Block the Character}
-\subsection{Ho do they Create Risk and Danger}
+
+The problem is people don't realize they are implementing anti-patterns at the time they are writing code.
+The interesting things about it are how do we find them. 
+How do we detect them, and what is the fix when we identify the problem.
+\subsection{How do they Create Risk and Danger}
+Because we know that the anti-patterns cause confusion in the developer, they create risk because they create unstable code. 
+This is risk for the owner of the software and the customer of the developer who uses code
 \subsection{What Does the Character Do (Struggles) to Reach Goal}
+This is something I think is interesting, is how are these problems identified.
+It isnt' enought to just use expert advice/knowledge. 
+There must be a way to mathematically demonstrate or by experimentation that particular code patterns cause problems.
+
 \subsection{What Sensory Details Will Make the Story Seem Real}
+Real world examples of the problem
 
 The files for this latex document are in the github repository located at \path{https://github.com/rodger79/CS6000}
 
