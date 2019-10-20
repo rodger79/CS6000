@@ -160,9 +160,23 @@ The performance of machine learning code smell detection techniques needs to be 
 It can't be said for certian that all machine learning code smell detection will perform at that level as it may be due to the datasets used for training or testing.
 
 \subsection{Code Smell Detection}
-One of the larger experiments on machine learning for code smell detection was done by Fontana et al.\cite{arcelli_fontana_comparing_2016}. In this study they used 16 different machine learning algorithms on four code smells (Data Class, Large Class, Feature Envy, Long Method). It included 74 software systems and 1986 manually validated code smell samples. Many other studies use the code smell sampls to perform other research and validate this research.
-
-Machine learning algorithms, such as Random Forest, J48 and SVM can be used to detect code smells.\cite{reshi_investigating_2019}\cite{karaduzovic-hadziabdic_comparison_2018}\cite{reshi_predicting_2018}\cite{nucci_detecting_2018}\cite{karaduzovic-hadziabdic_comparison_2018}. In\cite{reshi_investigating_2019}\cite{reshi_predicting_2018} (Reshi and Singh) showed that those algorithms could be used to identify code smells implying that it could be used for preventative maintainence and do document defects or their absence in software. They performed the assessment on the open source Eclipse software so their work could be verifiable. Others have created novel algorithms\cite{kaur_sp-j48:_2019} like a hybrid J48 algorithm with optimization.
+One of the larger experiments on machine learning for code smell detection was done by Fontana et al.\cite{arcelli_fontana_comparing_2016}. In this study they used 16 different machine learning algorithms on four code smells (Data Class, Large Class, Feature Envy, Long Method). It included 74 software systems and 1986 manually validated code smell samples. Many other studies use the code smell sampls to perform other research and validate this research. 
+In\cite{arcelli_fontana_comparing_2016} they rank the 10 best algorithms and the top two have a large effect size meaining they had a large advantage over the remaining algorithms.
+The top 10 algorithms are as follows:
+\begin{enumerate}
+\item B-J48 Pruned
+\item Random Forest
+\item B-JRip
+\item B-J48 Unpruned
+\item B-Random Forest
+\item J48 Pruned
+\item J48 Unpruned
+\item JRip
+\item B-J48 Reduced Error Pruning
+\item J48 Reduced Error Pruning
+\end{enumerate}
+As shown above there are many Machine learning algorithms that can be used to detect code smells.\cite{reshi_investigating_2019}\cite{karaduzovic-hadziabdic_comparison_2018}\cite{reshi_predicting_2018}\cite{nucci_detecting_2018}\cite{karaduzovic-hadziabdic_comparison_2018}. In\cite{reshi_investigating_2019}\cite{reshi_predicting_2018} (Reshi and Singh) showed that those algorithms could be used to identify code smells implying that it could be used for preventative maintainence and to document defects or their absence in software. 
+They performed the assessment on the open source Eclipse software so their work could be verifiable. Others have created novel algorithms\cite{kaur_sp-j48:_2019} like a hybrid J48 algorithm with optimization.
 Other papers refer to code smells as ``Evolvability Defects''\cite{tsuda_machine_2018} but use similar methodologies such as training machine learning algorithms to detect them. In\cite{tsuda_machine_2018}, they refer to code smells as evolvability defects and antipatterns as functional defects.
 
 \paragraph{Vulnerability Detection}
