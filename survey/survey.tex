@@ -32,11 +32,20 @@
 \section{Abstract}
 Recently, machine learning methods have been applied to detect and correct code smells, but this is a new field and it is not mature.
 
-\section{Background}
+\section{Introduction}
 A good overview of code smells is covered in \textit{A Survey on software smells} \cite{sharma_survey_2018}. 
 The paper only mentions For my next detailed read I chose a paper called  \textit{A systematic literature review: Refactoring for disclosing code smells in object oriented software} \cite{singh_systematic_2018}. 
 
 All cause confusion to the reader of the code. Developers spend more time reading than writing (citation?) code. If thesee smells and antipatterns can be detected and corrected, it will lead to more sustainable, more stable code with less time spent by the developer so less cost as well.
+
+There are five types of code smell detection\cite{lafi_code_2019}, they are:
+\begin{enumerate}
+\item Metrics based smell detection
+\item Rules/heuristic-based smell detection
+\item History based smell detection
+\item Optimization based smell detection
+\item Machine Learning based smell detection
+\end{enumerate}
 
 \subsection{Code Smells and Antipatterns}
 Code smells are similar to antipatterns, but code smells may not always be bad.
@@ -116,6 +125,7 @@ Using machine learning code smell detection has shown that code smells are a str
 Tian et al.\cite{tian_how_2019} performed a survey on stack overflow related to how developers discuss code smells and antipatterns. 
 They found that developers have difficulty detecting and refactoring code smells due to the lack of available tools and difficulty quantifying the cost.
 Test tools for performance recognizing design smells using iPlasma with the J48 Decision Tree algorithm\cite{singh_systematic_2018} against open source software.
+\paragraph{Deep Learning - Neural Networks} The biggest challenge for deep learning based code smell detection\cite{liu_deep_2019} is that it requires larger training datasets than typical machine learning algorithms. In \cite{liu_deep_2019} Liu et al. showed that an automated approach for building training datasets was possible and that Deep Learning could be used to detect code smells.
 \subsection{Code Smell Correction}
 \paragraph{Smell Removal}
 \paragraph{Refactoring}
