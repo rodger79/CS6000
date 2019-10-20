@@ -37,6 +37,24 @@ S.~Singh and S.~Kaur, ``A systematic literature review: {Refactoring} for
   \url{http://www.sciencedirect.com/science/article/pii/S2090447917300412}
 \BIBentrySTDinterwordspacing
 
+\bibitem{lafi_code_2019}
+M.~Lafi, J.~W. Botros, H.~Kafaween, A.~B. Al-Dasoqi, and A.~Al-Tamimi, ``Code
+  {Smells} {Analysis} {Mechanisms}, {Detection} {Issues}, and {Effect} on
+  {Software} {Maintainability},'' in \emph{2019 {IEEE} {Jordan} {International}
+  {Joint} {Conference} on {Electrical} {Engineering} and {Information}
+  {Technology} ({JEEIT})}, Apr. 2019, pp. 663--666.
+
+\bibitem{gopstein_understanding_2017}
+\BIBentryALTinterwordspacing
+D.~Gopstein, J.~Iannacone, Y.~Yan, L.~DeLong, Y.~Zhuang, M.~K.-C. Yeh, and
+  J.~Cappos, ``Understanding {Misunderstandings} in {Source} {Code},'' in
+  \emph{Proceedings of the 2017 11th {Joint} {Meeting} on {Foundations} of
+  {Software} {Engineering}}, ser. {ESEC}/{FSE} 2017.\hskip 1em plus 0.5em minus
+  0.4em\relax New York, NY, USA: ACM, 2017, pp. 129--139, event-place:
+  Paderborn, Germany. [Online]. Available:
+  \url{http://doi.acm.org/10.1145/3106237.3106264}
+\BIBentrySTDinterwordspacing
+
 \bibitem{fowler_refactoring:_2018}
 M.~Fowler, \emph{Refactoring: improving the design of existing code}.\hskip 1em
   plus 0.5em minus 0.4em\relax Addison-Wesley Professional, 2018.
@@ -48,6 +66,108 @@ A.~Koenig, ``Patterns and antipatterns,'' \emph{The patterns handbook:
 \bibitem{bishop_pattern_2006}
 C.~M. Bishop, \emph{Pattern recognition and machine learning}.\hskip 1em plus
   0.5em minus 0.4em\relax springer, 2006.
+
+\bibitem{samuel_studies_1988}
+A.~L. Samuel, ``Some studies in machine learning using the game of checkers.
+  {II}—recent progress,'' in \emph{Computer {Games} {I}}.\hskip 1em plus
+  0.5em minus 0.4em\relax Springer, 1988, pp. 366--400.
+
+\bibitem{tian_how_2019}
+F.~Tian, P.~Liang, and M.~A. Babar, ``How {Developers} {Discuss} {Architecture}
+  {Smells}? {An} {Exploratory} {Study} on {Stack} {Overflow},'' in \emph{2019
+  {IEEE} {International} {Conference} on {Software} {Architecture} ({ICSA})},
+  Mar. 2019, pp. 91--100.
+
+\bibitem{arcelli_fontana_comparing_2016}
+\BIBentryALTinterwordspacing
+F.~Arcelli~Fontana, M.~V. Mäntylä, M.~Zanoni, and A.~Marino, ``Comparing and
+  experimenting machine learning techniques for code smell detection,''
+  \emph{Empirical Software Engineering}, vol.~21, no.~3, pp. 1143--1191, Jun.
+  2016. [Online]. Available: \url{https://doi.org/10.1007/s10664-015-9378-4}
+\BIBentrySTDinterwordspacing
+
+\bibitem{pecorelli_comparing_2019}
+\BIBentryALTinterwordspacing
+F.~Pecorelli, F.~Palomba, D.~Di~Nucci, and A.~De~Lucia, ``Comparing {Heuristic}
+  and {Machine} {Learning} {Approaches} for {Metric}-based {Code} {Smell}
+  {Detection},'' in \emph{Proceedings of the 27th {International} {Conference}
+  on {Program} {Comprehension}}, ser. {ICPC} '19.\hskip 1em plus 0.5em minus
+  0.4em\relax Piscataway, NJ, USA: IEEE Press, 2019, pp. 93--104, event-place:
+  Montreal, Quebec, Canada. [Online]. Available:
+  \url{https://doi.org/10.1109/ICPC.2019.00023}
+\BIBentrySTDinterwordspacing
+
+\bibitem{reshi_investigating_2019}
+J.~A. Reshi and S.~Singh, ``Investigating the {Role} of {Code} {Smells} in
+  {Preventive} {Maintenance},'' \emph{Journal of Information Technology
+  Management}, vol.~10, no.~4, pp. 41--63, 2019.
+
+\bibitem{kaur_sp-j48:_2019}
+\BIBentryALTinterwordspacing
+A.~Kaur, S.~Jain, and S.~Goel, ``{SP}-{J}48: a novel optimization and
+  machine-learning-based approach for solving complex problems: special
+  application in software engineering for detecting code smells,'' \emph{Neural
+  Computing and Applications}, Apr. 2019. [Online]. Available:
+  \url{https://doi.org/10.1007/s00521-019-04175-z}
+\BIBentrySTDinterwordspacing
+
+\bibitem{rubin_sniffing_2019}
+J.~Rubin, A.~N. Henniche, N.~Moha, M.~Bouguessa, and N.~Bousbia, ``Sniffing
+  {Android} {Code} {Smells}: {An} {Association} {Rules} {Mining}-{Based}
+  {Approach},'' in \emph{2019 {IEEE}/{ACM} 6th {International} {Conference} on
+  {Mobile} {Software} {Engineering} and {Systems} ({MOBILESoft})}, May 2019,
+  pp. 123--127.
+
+\bibitem{sharma_feasibility_2019}
+T.~Sharma, V.~Efstathiou, P.~Louridas, and D.~Spinellis, \emph{On the
+  {Feasibility} of {Transfer}-learning {Code} {Smells} using {Deep}
+  {Learning}}, 2019.
+
+\bibitem{pritam_assessment_2019}
+N.~Pritam, M.~Khari, L.~H. Son, R.~Kumar, S.~Jha, I.~Priyadarshini,
+  M.~Abdel-Basset, and H.~V. Long, ``Assessment of {Code} {Smell} for
+  {Predicting} {Class} {Change} {Proneness} {Using} {Machine} {Learning},''
+  \emph{IEEE Access}, vol.~7, pp. 37\,414--37\,425, 2019.
+
+\bibitem{foidl_risk-based_2019}
+\BIBentryALTinterwordspacing
+H.~Foidl and M.~Felderer, ``Risk-based {Data} {Validation} in {Machine}
+  {Learning}-based {Software} {Systems},'' in \emph{Proceedings of the 3rd
+  {ACM} {SIGSOFT} {International} {Workshop} on {Machine} {Learning}
+  {Techniques} for {Software} {Quality} {Evaluation}}, ser. {MaLTeSQuE}
+  2019.\hskip 1em plus 0.5em minus 0.4em\relax New York, NY, USA: ACM, 2019,
+  pp. 13--18, event-place: Tallinn, Estonia. [Online]. Available:
+  \url{http://doi.acm.org/10.1145/3340482.3342743}
+\BIBentrySTDinterwordspacing
+
+\bibitem{barbez_machine-learning_2019}
+\BIBentryALTinterwordspacing
+A.~Barbez, F.~Khomh, and Y.-G. Guéhéneuc, ``A {Machine}-learning {Based}
+  {Ensemble} {Method} {For} {Anti}-patterns {Detection},'' \emph{CoRR}, vol.
+  abs/1903.01899, 2019. [Online]. Available:
+  \url{http://arxiv.org/abs/1903.01899}
+\BIBentrySTDinterwordspacing
+
+\bibitem{liu_deep_2019}
+H.~Liu, J.~Jin, Z.~Xu, Y.~Bu, Y.~Zou, and L.~Zhang, ``Deep {Learning} {Based}
+  {Code} {Smell} {Detection},'' \emph{IEEE Transactions on Software
+  Engineering}, pp. 1--1, 2019.
+
+\bibitem{ban_performance_2019}
+\BIBentryALTinterwordspacing
+X.~Ban, S.~Liu, C.~Chen, and C.~Chua, ``A performance evaluation of deep-learnt
+  features for software vulnerability detection,'' \emph{Concurrency and
+  Computation: Practice and Experience}, vol.~31, no.~19, p. e5103, 2019.
+  [Online]. Available:
+  \url{https://onlinelibrary.wiley.com/doi/abs/10.1002/cpe.5103}
+\BIBentrySTDinterwordspacing
+
+\bibitem{noauthor_how_nodate}
+\BIBentryALTinterwordspacing
+``How a {Self}-{Driving} {Uber} {Killed} a {Pedestrian} in {Arizona} - {The}
+  {New} {York} {Times}.'' [Online]. Available:
+  \url{https://www.nytimes.com/interactive/2018/03/20/us/self-driving-uber-pedestrian-killed.html}
+\BIBentrySTDinterwordspacing
 
 \bibitem{mantyla_taxonomy_2003}
 M.~Mantyla, J.~Vanhanen, and C.~Lassenius, ``A taxonomy and an initial
@@ -83,17 +203,6 @@ N.~Yoshioka, H.~Washizaki, and K.~Maruyama, ``\BIBforeignlanguage{en}{A survey
   on security patterns},'' \emph{\BIBforeignlanguage{en}{Progress in
   Informatics}}, no.~5, p.~35, Mar. 2008. [Online]. Available:
   \url{http://www.nii.ac.jp/pi/n5/5_35.html}
-\BIBentrySTDinterwordspacing
-
-\bibitem{gopstein_understanding_2017}
-\BIBentryALTinterwordspacing
-D.~Gopstein, J.~Iannacone, Y.~Yan, L.~DeLong, Y.~Zhuang, M.~K.-C. Yeh, and
-  J.~Cappos, ``Understanding {Misunderstandings} in {Source} {Code},'' in
-  \emph{Proceedings of the 2017 11th {Joint} {Meeting} on {Foundations} of
-  {Software} {Engineering}}, ser. {ESEC}/{FSE} 2017.\hskip 1em plus 0.5em minus
-  0.4em\relax New York, NY, USA: ACM, 2017, pp. 129--139, event-place:
-  Paderborn, Germany. [Online]. Available:
-  \url{http://doi.acm.org/10.1145/3106237.3106264}
 \BIBentrySTDinterwordspacing
 
 \bibitem{li_dlfinder:_2019}
@@ -139,12 +248,6 @@ S.~S. Afjehei, T.-H.~P. Chen, and N.~Tsantalis, ``{iPerfDetector}:
   applications,'' \emph{Empirical Software Engineering}, Apr. 2019. [Online].
   Available: \url{https://doi.org/10.1007/s10664-019-09703-y}
 \BIBentrySTDinterwordspacing
-
-\bibitem{tian_how_2019}
-F.~Tian, P.~Liang, and M.~A. Babar, ``How {Developers} {Discuss} {Architecture}
-  {Smells}? {An} {Exploratory} {Study} on {Stack} {Overflow},'' in \emph{2019
-  {IEEE} {International} {Conference} on {Software} {Architecture} ({ICSA})},
-  Mar. 2019, pp. 91--100.
 
 \bibitem{vassallo_automated_2019}
 \BIBentryALTinterwordspacing
@@ -229,21 +332,6 @@ A.~Kaur, K.~Kaur, and S.~Jain, ``Predicting software change-proneness with code
   {Conference} on {Advances} in {Computing}, {Communications} and {Informatics}
   ({ICACCI})}, Sep. 2016, pp. 746--754.
 
-\bibitem{pritam_assessment_2019}
-N.~Pritam, M.~Khari, L.~H. Son, R.~Kumar, S.~Jha, I.~Priyadarshini,
-  M.~Abdel-Basset, and H.~V. Long, ``Assessment of {Code} {Smell} for
-  {Predicting} {Class} {Change} {Proneness} {Using} {Machine} {Learning},''
-  \emph{IEEE Access}, vol.~7, pp. 37\,414--37\,425, 2019.
-
-\bibitem{kaur_sp-j48:_2019}
-\BIBentryALTinterwordspacing
-A.~Kaur, S.~Jain, and S.~Goel, ``{SP}-{J}48: a novel optimization and
-  machine-learning-based approach for solving complex problems: special
-  application in software engineering for detecting code smells,'' \emph{Neural
-  Computing and Applications}, Apr. 2019. [Online]. Available:
-  \url{https://doi.org/10.1007/s00521-019-04175-z}
-\BIBentrySTDinterwordspacing
-
 \bibitem{maiga_smurf:_2012}
 A.~Maiga, N.~Ali, N.~Bhattacharya, A.~Sabané, Y.~Guéhéneuc, and E.~Aimeur,
   ``{SMURF}: {A} {SVM}-based {Incremental} {Anti}-pattern {Detection}
@@ -279,14 +367,6 @@ F.~A. Fontana and M.~Zanoni, ``Code smell severity classification using machine
   \url{http://www.sciencedirect.com/science/article/pii/S0950705117301880}
 \BIBentrySTDinterwordspacing
 
-\bibitem{arcelli_fontana_comparing_2016}
-\BIBentryALTinterwordspacing
-F.~Arcelli~Fontana, M.~V. Mäntylä, M.~Zanoni, and A.~Marino, ``Comparing and
-  experimenting machine learning techniques for code smell detection,''
-  \emph{Empirical Software Engineering}, vol.~21, no.~3, pp. 1143--1191, Jun.
-  2016. [Online]. Available: \url{https://doi.org/10.1007/s10664-015-9378-4}
-\BIBentrySTDinterwordspacing
-
 \bibitem{noauthor_findings_2019}
 \emph{\BIBforeignlanguage{English}{Findings from {FUMEC} {University}
   {Provides} {New} {Data} on {Machine} {Learning} ({Machine} {Learning}
@@ -303,14 +383,6 @@ U.~Azadi, F.~A. Fontana, and M.~Zanoni, ``Poster: machine learning based code
 \bibitem{kessentini_understanding_2019}
 M.~Kessentini, ``Understanding the {Correlation} between {Code} {Smells} {And}
   {Software} {Bugs},'' 2019.
-
-\bibitem{barbez_machine-learning_2019}
-\BIBentryALTinterwordspacing
-A.~Barbez, F.~Khomh, and Y.-G. Guéhéneuc, ``A {Machine}-learning {Based}
-  {Ensemble} {Method} {For} {Anti}-patterns {Detection},'' \emph{CoRR}, vol.
-  abs/1903.01899, 2019. [Online]. Available:
-  \url{http://arxiv.org/abs/1903.01899}
-\BIBentrySTDinterwordspacing
 
 \bibitem{saluja_assessing_2019}
 \BIBentryALTinterwordspacing
@@ -381,15 +453,6 @@ G.~M. Ubayawardana and D.~D. Karunaratna, ``Bug {Prediction} {Model} using
   {Advances} in {ICT} for {Emerging} {Regions} ({ICTer})}, Sep. 2018, pp.
   70--77.
 
-\bibitem{ban_performance_2019}
-\BIBentryALTinterwordspacing
-X.~Ban, S.~Liu, C.~Chen, and C.~Chua, ``A performance evaluation of deep-learnt
-  features for software vulnerability detection,'' \emph{Concurrency and
-  Computation: Practice and Experience}, vol.~31, no.~19, p. e5103, 2019.
-  [Online]. Available:
-  \url{https://onlinelibrary.wiley.com/doi/abs/10.1002/cpe.5103}
-\BIBentrySTDinterwordspacing
-
 \bibitem{pellegrini_are_2018}
 \BIBentryALTinterwordspacing
 L.~Pellegrini and V.~Lenarduzzi, ``Are {Code} {Smells} the {Root} {Cause} of
@@ -430,11 +493,6 @@ K.~Karađuzović-Hadžiabdić and R.~Spahić, ``Comparison of {Machine}
   {Features},'' in \emph{2018 3rd {International} {Conference} on {Computer}
   {Science} and {Engineering} ({UBMK})}, Sep. 2018, pp. 670--672.
 
-\bibitem{reshi_investigating_2019}
-J.~A. Reshi and S.~Singh, ``Investigating the {Role} of {Code} {Smells} in
-  {Preventive} {Maintenance},'' \emph{Journal of Information Technology
-  Management}, vol.~10, no.~4, pp. 41--63, 2019.
-
 \bibitem{liu_deep_2018}
 \BIBentryALTinterwordspacing
 H.~Liu, Z.~Xu, and Y.~Zou, ``Deep {Learning} {Based} {Feature} {Envy}
@@ -450,11 +508,6 @@ B.~Grodniyomchai, K.~Chalapat, K.~Jitkajornwanich, and S.~Jaiyen, ``A {Deep}
   {Learning} {Model} for {Odor} {Classification} {Using} {Deep} {Neural}
   {Network},'' in \emph{2019 5th {International} {Conference} on {Engineering},
   {Applied} {Sciences} and {Technology} ({ICEAST})}, Jul. 2019, pp. 1--4.
-
-\bibitem{liu_deep_2019}
-H.~Liu, J.~Jin, Z.~Xu, Y.~Bu, Y.~Zou, and L.~Zhang, ``Deep {Learning} {Based}
-  {Code} {Smell} {Detection},'' \emph{IEEE Transactions on Software
-  Engineering}, pp. 1--1, 2019.
 
 \bibitem{kokol_code_2018}
 P.~Kokol, M.~Zorman, G.~Zlahtic, and B.~Zlahtic, \emph{Code smells}, 2018.
@@ -476,13 +529,6 @@ A.~Gupta, B.~Suri, V.~Kumar, S.~Misra, T.~Blažauskas, and R.~Damaševičius,
   ``Software code smell prediction model using {Shannon}, {Rényi} and
   {Tsallis} entropies,'' \emph{Entropy}, vol.~20, no.~5, p. 372, 2018.
 
-\bibitem{lafi_code_2019}
-M.~Lafi, J.~W. Botros, H.~Kafaween, A.~B. Al-Dasoqi, and A.~Al-Tamimi, ``Code
-  {Smells} {Analysis} {Mechanisms}, {Detection} {Issues}, and {Effect} on
-  {Software} {Maintainability},'' in \emph{2019 {IEEE} {Jordan} {International}
-  {Joint} {Conference} on {Electrical} {Engineering} and {Information}
-  {Technology} ({JEEIT})}, Apr. 2019, pp. 663--666.
-
 \bibitem{spahic_class_2018}
 R.~Spahić and K.~Kara{\textbackslash}djuzović-Hadžiabdić, ``Class {Level}
   {Code} {Smell} {Detection} using {Machine} {Learning} {Methods},'' \emph{book
@@ -491,17 +537,6 @@ R.~Spahić and K.~Kara{\textbackslash}djuzović-Hadžiabdić, ``Class {Level}
 \bibitem{ferreira_software_2019}
 F.~Ferreira, L.~L. Silva, and M.~T. Valente, \emph{Software {Engineering}
   {Meets} {Deep} {Learning}: {A} {Literature} {Review}}, 2019.
-
-\bibitem{foidl_risk-based_2019}
-\BIBentryALTinterwordspacing
-H.~Foidl and M.~Felderer, ``Risk-based {Data} {Validation} in {Machine}
-  {Learning}-based {Software} {Systems},'' in \emph{Proceedings of the 3rd
-  {ACM} {SIGSOFT} {International} {Workshop} on {Machine} {Learning}
-  {Techniques} for {Software} {Quality} {Evaluation}}, ser. {MaLTeSQuE}
-  2019.\hskip 1em plus 0.5em minus 0.4em\relax New York, NY, USA: ACM, 2019,
-  pp. 13--18, event-place: Tallinn, Estonia. [Online]. Available:
-  \url{http://doi.acm.org/10.1145/3340482.3342743}
-\BIBentrySTDinterwordspacing
 
 \bibitem{reshi_predicting_2018}
 J.~A. Reshi and S.~Singh, \emph{Predicting {Software} {Defects} through {SVM}:
@@ -513,34 +548,11 @@ Y.~Wang, S.~Hu, L.~Yin, and X.~Zhou, ``Using {Code} {Evolution} {Information}
   \emph{2018 {IEEE} 42nd {Annual} {Computer} {Software} and {Applications}
   {Conference} ({COMPSAC})}, vol.~01, Jul. 2018, pp. 48--53.
 
-\bibitem{sharma_feasibility_2019}
-T.~Sharma, V.~Efstathiou, P.~Louridas, and D.~Spinellis, \emph{On the
-  {Feasibility} of {Transfer}-learning {Code} {Smells} using {Deep}
-  {Learning}}, 2019.
-
-\bibitem{rubin_sniffing_2019}
-J.~Rubin, A.~N. Henniche, N.~Moha, M.~Bouguessa, and N.~Bousbia, ``Sniffing
-  {Android} {Code} {Smells}: {An} {Association} {Rules} {Mining}-{Based}
-  {Approach},'' in \emph{2019 {IEEE}/{ACM} 6th {International} {Conference} on
-  {Mobile} {Software} {Engineering} and {Systems} ({MOBILESoft})}, May 2019,
-  pp. 123--127.
-
 \bibitem{kaur_international_nodate}
 \BIBentryALTinterwordspacing
 A.~Kaur and S.~Singh, ``International {Journal} of {Applied} {Engineering}
   {Research}.'' [Online]. Available:
   \url{https://www.ripublication.com/ijaer18/ijaerv13n11_176.pdf}
-\BIBentrySTDinterwordspacing
-
-\bibitem{pecorelli_comparing_2019}
-\BIBentryALTinterwordspacing
-F.~Pecorelli, F.~Palomba, D.~Di~Nucci, and A.~De~Lucia, ``Comparing {Heuristic}
-  and {Machine} {Learning} {Approaches} for {Metric}-based {Code} {Smell}
-  {Detection},'' in \emph{Proceedings of the 27th {International} {Conference}
-  on {Program} {Comprehension}}, ser. {ICPC} '19.\hskip 1em plus 0.5em minus
-  0.4em\relax Piscataway, NJ, USA: IEEE Press, 2019, pp. 93--104, event-place:
-  Montreal, Quebec, Canada. [Online]. Available:
-  \url{https://doi.org/10.1109/ICPC.2019.00023}
 \BIBentrySTDinterwordspacing
 
 \bibitem{kriens_software_2019}
@@ -576,10 +588,5 @@ M.~Hirsch, A.~Rodriguez, J.~M. Rodriguez, C.~Mateos, and A.~Zunino, ``Spotting
   Interfaces}, vol.~56, pp. 116 -- 133, 2018. [Online]. Available:
   \url{http://www.sciencedirect.com/science/article/pii/S0920548917300892}
 \BIBentrySTDinterwordspacing
-
-\bibitem{samuel_studies_1988}
-A.~L. Samuel, ``Some studies in machine learning using the game of checkers.
-  {II}—recent progress,'' in \emph{Computer {Games} {I}}.\hskip 1em plus
-  0.5em minus 0.4em\relax Springer, 1988, pp. 366--400.
 
 \end{thebibliography}

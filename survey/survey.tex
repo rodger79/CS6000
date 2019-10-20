@@ -35,10 +35,17 @@ Recently, machine learning methods have been applied to detect and correct code 
 \section{Introduction}
 A good overview of code smells is covered in \textit{A Survey on software smells} \cite{sharma_survey_2018}. 
 The paper only mentions For my next detailed read I chose a paper called  \textit{A systematic literature review: Refactoring for disclosing code smells in object oriented software} \cite{singh_systematic_2018}. 
+For a survey of ML and code smell detection from 2000-2017, Azeem et al. presented a systematic literature review\cite{azeem_machine_2019}. At the time, they only had 15 related papers to review. 
+This area of study is a rapidly growing field.
+
+How many papers included in this survey?
+%read this later
 
 All cause confusion to the reader of the code. Developers spend more time reading than writing (citation?) code. If thesee smells and antipatterns can be detected and corrected, it will lead to more sustainable, more stable code with less time spent by the developer so less cost as well.
 
-There are five types of code smell detection\cite{lafi_code_2019}, they are:
+Manual analysis would take so much time it is completely impractical from a cost perspecitve.
+
+There are five types of automated code smell detection\cite{lafi_code_2019}, they are:
 \begin{enumerate}
 \item Metrics based smell detection
 \item Rules/heuristic-based smell detection
@@ -130,7 +137,7 @@ Figure \ref{fig:ML} focuses on the area of intersection between code smells and 
 
 Include chart based on source of papers?
 
-\subsection{Performance}
+\subsection{Machine Learning Code Smell Detection Performance}
 In a comparison of the 32 different machine learning algorithms\cite{arcelli_fontana_comparing_2016} it was determined that the J48 and Random Forest algorithms have the best performance detecting code smells and the support vector machines had the worst performance. They also showed the algorithms had greater than 96\% accuracy and only required 100 training examples to get above 95\%.
 
 The performance of machine learning code smell detection techniques needs to be compared to heuristic methods to determine whether it has better performance. Heruistic methods use detection rules based on software metrics. (Pecorelli et al.) showed\cite{pecorelli_comparing_2019} that their Naive Bayesian machine learning code smell detection algorithm performed at the same level or below the DECOR heuristic method. 
@@ -140,23 +147,26 @@ It can't be said for certian that all machine learning code smell detection will
 Machine learning algorithms, such as Random Forest, J48 and SVM can be used to detect code smells.\cite{reshi_investigating_2019}. (Reshi and Singh) showed that those algorithms could be used to identify code smells implying that it could be used for preventative maintainence and do document defects or their absence in software. They performed the assessment on the open source Eclipse software so their work could be verifiable. Others have created novel algorithms\cite{kaur_sp-j48:_2019} like a hybrid J48 algorithm with optimization.
 \paragraph{Mobile Applications}
 Code smells in mobile applications could lead to poor performance. Algorithms have been developed\cite{rubin_sniffing_2019} to generate detection rules for Andriod applications.
-\paragraph{Detection Improvements}
-Sharma et al.\cite{sharma_feasibility_2019} look at the feasability of using Transfer-learning to improve the performance of machine learing algorithms when detecting code smells. This opens the opportunity to use transfer learning to do code smell detection on programming languages where smell dection tools are not yet available.
-Using machine learning code smell detection has shown that code smells are a strong predictor of class change proneness\cite{pritam_assessment_2019} with greater than 70\% probability. Software change proneness is related to its quality and sustainability.
-Foidl and Felderer have proposed\cite{foidl_risk-based_2019} a risk-based approach to weight the input data quality of the machine learning algorithm with the impact of the ``badness'' of the identified code smell. 
-This method could help to optimize and prioritize software maintainence efforts for large scale sustainment projects.
+ networks.
 \paragraph{Defect Prediction}
 \paragraph{Techniques and Tools}
 Tian et al.\cite{tian_how_2019} performed a survey on stack overflow related to how developers discuss code smells and antipatterns. 
 They found that developers have difficulty detecting and refactoring code smells due to the lack of available tools and difficulty quantifying the cost.
 Test tools for performance recognizing design smells using iPlasma with the J48 Decision Tree algorithm\cite{singh_systematic_2018} against open source software.
 \paragraph{Deep Learning - Neural Networks} The biggest challenge for deep learning based code smell detection\cite{liu_deep_2019} is that it requires larger training datasets than typical machine learning algorithms. In \cite{liu_deep_2019} Liu et al. showed that an automated approach for building training datasets was possible and that Deep Learning could be used to detect code smells.
+In a related area, Ban et al. showed that a deep learning model could be used to identify potential vulnerabilities\cite{ban_performance_2019}, but had poor performance when facing corss-project vulnerability detection.
+\subsection{Code Smell Detection Improvements}
+Sharma et al.\cite{sharma_feasibility_2019} look at the feasability of using Transfer-learning to improve the performance of machine learing algorithms when detecting code smells. This opens the opportunity to use transfer learning to do code smell detection on programming languages where smell dection tools are not yet available.
+Using machine learning code smell detection has shown that code smells are a strong predictor of class change proneness\cite{pritam_assessment_2019} with greater than 70\% probability. Software change proneness is related to its quality and sustainability.
+Foidl and Felderer have proposed\cite{foidl_risk-based_2019} a risk-based approach to weight the input data quality of the machine learning algorithm with the impact of the ``badness'' of the identified code smell. 
+This method could help to optimize and prioritize software maintainence efforts for large scale sustainment projects.
+Barbez et al. propose\cite{barbez_machine-learning_2019} an ensemble method based deep learning algorithm for anti pattern detection which had a precision of 48\% vs the heuristic DECOR algorithm which is 35\%. Ensemble learning combines the predictions from multiple nerual
 \subsection{Code Smell Correction}
+\paragraph{Refactoring} It has been shown that machine learning can be used to automatically fix or propose patches for software\cite{xiong_learning_2018}. For if-statement repair Xiong et al. showed that they could use machine learning to predict code repair with 43.5\% precision.
 \paragraph{Smell Removal}
-\paragraph{Refactoring}
 \subsection{Code Smell Classification}
-Severity
-\subsection{Code Smell Prediction}
+\paragraph{Severity}
+%\subsection{Code Smell Prediction}
 
 
 
