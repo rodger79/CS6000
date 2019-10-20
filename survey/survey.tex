@@ -36,7 +36,7 @@ Recently, machine learning methods have been applied to detect and correct code 
 A good overview of code smells is covered in \textit{A Survey on software smells} \cite{sharma_survey_2018}. 
 The paper only mentions For my next detailed read I chose a paper called  \textit{A systematic literature review: Refactoring for disclosing code smells in object oriented software} \cite{singh_systematic_2018}. 
 
-
+All cause confusion to the reader of the code. Developers spend more time reading than writing (citation?) code. If thesee smells and antipatterns can be detected and corrected, it will lead to more sustainable, more stable code with less time spent by the developer so less cost as well.
 
 \subsection{Code Smells and Antipatterns}
 Code smells are similar to antipatterns, but code smells may not always be bad.
@@ -83,7 +83,7 @@ The existance of code smells and antipatterns implies that there are going to be
 
 
 \subsection{Machine Learning}
-Machine learning is defined as computers learning to solve problems with being explicitly programmed, although they are ``trained''\cite{bishop_pattern_2006}. 
+Machine learning is defined as computers learning to solve problems without being explicitly programmed, although they are ``trained''\cite{bishop_pattern_2006}. 
 Arthur Samuel coined the term Machine Learning in 1959\cite{samuel_studies_1988}.
 Machine learning is a subset of artificial intelligence. 
 It uses algorithms and statistical models to execute a task without explicitly being programmed.
@@ -100,7 +100,9 @@ Training dataset vs test dataset
 \section{Results}
 Tian et al.\cite{tian_how_2019} performed a survey on stack overflow related to how developers discuss code smells and antipatterns. They found that developers have difficulty detecting and refactoring code smells due to the lack of available tools and difficulty quantifying the cost.
 \subsection{Performance}
-The performance of machine learning code smell detection techniques needs to be compared to heuristic methods to determine if it is has better performance. Heruistic methods use detection rules based on software metrics. (Pecorelli et al.) showed\cite{pecorelli_comparing_2019} that their Naive Bayesian machine learning code smell detection algorithm performed at the same level or below the DECOR heuristic method. 
+In a comparison of the 32 different machine learning algorithms\cite{arcelli_fontana_comparing_2016} it was determined that the J48 and Random Forest algorithms have the best performance detecting code smells and the support vector machines had the worst performance. They also showed the algorithms had greater than 96\% accuracy and only required 100 training examples to get above 95\%.
+
+The performance of machine learning code smell detection techniques needs to be compared to heuristic methods to determine whether it has better performance. Heruistic methods use detection rules based on software metrics. (Pecorelli et al.) showed\cite{pecorelli_comparing_2019} that their Naive Bayesian machine learning code smell detection algorithm performed at the same level or below the DECOR heuristic method. 
 It can't be said for certian that all machine learning code smell detection will perform at that level as it may be due to the datasets used for training or testing.
 \subsection{Code Smell Detection}
 Machine learning algorithms, such as Random Forest, J48 and SVM can be used to detect code smells.\cite{reshi_investigating_2019}. (Reshi and Singh) showed that those algorithms could be used to identify code smells implying that it could be used for preventative maintainence and do document defects or their absence in software. They performed the assessment on the open source Eclipse software so their work could be verifiable.
@@ -193,7 +195,7 @@ The files for this latex document are in the github repository located at \path{
 
 \nocite{*}
 
-\clearpage
+%\clearpage
 \bibliographystyle{IEEEtran}
 \bibliography{references}
 

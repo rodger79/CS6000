@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.4.21)  19 OCT 2019 19:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.4.21)  20 OCT 2019 08:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -696,53 +696,57 @@ LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <10> not available
 <AntiPattern-TopicMap.png, id=14, 1621.05624pt x 1201.48875pt>
 File: AntiPattern-TopicMap.png Graphic file (type png)
 <use AntiPattern-TopicMap.png>
-Package pdftex.def Info: AntiPattern-TopicMap.png  used on input line 129.
+Package pdftex.def Info: AntiPattern-TopicMap.png  used on input line 131.
 (pdftex.def)             Requested size: 516.0pt x 382.44928pt.
 <ML-codesmells.png, id=16, 1148.29pt x 731.73375pt>
 File: ML-codesmells.png Graphic file (type png)
 <use ML-codesmells.png>
-Package pdftex.def Info: ML-codesmells.png  used on input line 135.
+Package pdftex.def Info: ML-codesmells.png  used on input line 137.
 (pdftex.def)             Requested size: 516.0pt x 328.81937pt.
  [2]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 192.
+Underfull \vbox (badness 1412) has occurred while \output is active []
+
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 194.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 192.
+LaTeX Font Info:    Try loading font information for U+msa on input line 194.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 192.
+LaTeX Font Info:    Try loading font information for U+msb on input line 194.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [3
-
- <./AntiPattern-TopicMap.png>] [4 <./ML-codesmells.png>] (./survey.bbl
+) (./survey.bbl
 Underfull \hbox (badness 2103) in paragraph at lines 41--43
 []\OT1/ptm/m/n/8 M. Fowler, \OT1/ptm/m/it/8 Refac-tor-ing: im-prov-ing the de-s
 ign of ex-ist-ing code\OT1/ptm/m/n/8 .
  []
 
+[3 <./AntiPattern-TopicMap.png>]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no § in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
+
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `en'. Using the pattern for
 ** the default language instead.
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `en'. Using the pattern for
 ** the default language instead.
+[4 <./ML-codesmells.png>]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no © in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no © in font ptmr7t!
+
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `en'. Using the pattern for
 ** the default language instead.
@@ -756,10 +760,6 @@ Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¤ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¤ in font ptmr7t!
-[5
-
-
-]
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `English'. Using the pattern for
 ** the default language instead.
@@ -779,6 +779,7 @@ Missing character: There is no © in font ptmr7t!
 Missing character: There is no â in font ptmri7t!
 Missing character: There is no € in font ptmri7t!
 Missing character: There is no “ in font ptmri7t!
+[5]
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ‘ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
@@ -807,7 +808,6 @@ Missing character: There is no Å in font ptmr7t!
 Missing character: There is no ¾ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ‡ in font ptmr7t!
-[6]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ” in font ptmr7t!
@@ -823,29 +823,27 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[7
-
-] (./survey.aux) ) 
+[6] (./survey.aux) ) 
 Here is how much of TeX's memory you used:
  15659 strings out of 492982
  308802 string characters out of 6134896
- 488931 words of memory out of 5000000
+ 488193 words of memory out of 5000000
  18893 multiletter control sequences out of 15000+600000
  43474 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,8n,66p,471b,1243s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
-mes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
->
-Output written on survey.pdf (7 pages, 289884 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
+times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.p
+fb>
+Output written on survey.pdf (6 pages, 290498 bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
- 44 compressed objects within 1 object stream
+ 60 PDF objects out of 1000 (max. 8388607)
+ 40 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
