@@ -16,45 +16,45 @@ Warning--missing publisher in reshi_predicting_2018
 Warning--missing publisher in sharma_feasibility_2019
 
 Done.
-You've used 37 entries,
+You've used 44 entries,
             4087 wiz_defined-function locations,
-            1042 strings with 16491 characters,
-and the built_in function-call counts, 30786 in all, are:
-= -- 2466
-> -- 726
-< -- 258
-+ -- 391
-- -- 127
-* -- 1541
-:= -- 4533
-add.period$ -- 78
-call.type$ -- 37
-change.case$ -- 38
-chr.to.int$ -- 630
-cite$ -- 40
-duplicate$ -- 2138
-empty$ -- 2529
-format.name$ -- 152
-if$ -- 7200
+            1084 strings with 18308 characters,
+and the built_in function-call counts, 36933 in all, are:
+= -- 2969
+> -- 873
+< -- 307
++ -- 467
+- -- 152
+* -- 1848
+:= -- 5444
+add.period$ -- 95
+call.type$ -- 44
+change.case$ -- 47
+chr.to.int$ -- 750
+cite$ -- 47
+duplicate$ -- 2573
+empty$ -- 3028
+format.name$ -- 184
+if$ -- 8643
 int.to.chr$ -- 0
-int.to.str$ -- 37
-missing$ -- 380
-newline$ -- 168
-num.names$ -- 36
-pop$ -- 904
+int.to.str$ -- 44
+missing$ -- 458
+newline$ -- 197
+num.names$ -- 43
+pop$ -- 1088
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 2360
+skip$ -- 2830
 stack$ -- 0
-substring$ -- 1538
-swap$ -- 1777
-text.length$ -- 48
+substring$ -- 1835
+swap$ -- 2133
+text.length$ -- 57
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 37
+type$ -- 44
 warning$ -- 3
-while$ -- 146
-width$ -- 39
-write$ -- 421
+while$ -- 174
+width$ -- 46
+write$ -- 502
 (There were 3 warnings)

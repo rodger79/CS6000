@@ -37,6 +37,14 @@ S.~Singh and S.~Kaur, ``A systematic literature review: {Refactoring} for
   \url{http://www.sciencedirect.com/science/article/pii/S2090447917300412}
 \BIBentrySTDinterwordspacing
 
+\bibitem{garousi_smells_2018}
+\BIBentryALTinterwordspacing
+V.~Garousi and B.~Küçük, ``Smells in software test code: {A} survey of
+  knowledge in industry and academia,'' \emph{Journal of Systems and Software},
+  vol. 138, pp. 52 -- 81, 2018. [Online]. Available:
+  \url{http://www.sciencedirect.com/science/article/pii/S0164121217303060}
+\BIBentrySTDinterwordspacing
+
 \bibitem{kokol_code_2018}
 P.~Kokol, M.~Zorman, G.~Zlahtic, and B.~Zlahtic, \emph{Code smells}, 2018.
 
@@ -47,6 +55,16 @@ M.~I. Azeem, F.~Palomba, L.~Shi, and Q.~Wang, ``Machine learning techniques for
   \emph{Information and Software Technology}, vol. 108, pp. 115 -- 138, 2019.
   [Online]. Available:
   \url{http://www.sciencedirect.com/science/article/pii/S0950584918302623}
+\BIBentrySTDinterwordspacing
+
+\bibitem{haque_causes_2018}
+\BIBentryALTinterwordspacing
+M.~S. Haque, J.~Carver, and T.~Atkison, ``Causes, {Impacts}, and {Detection}
+  {Approaches} of {Code} {Smell}: {A} {Survey},'' in \emph{Proceedings of the
+  {ACMSE} 2018 {Conference}}, ser. {ACMSE} '18.\hskip 1em plus 0.5em minus
+  0.4em\relax New York, NY, USA: ACM, 2018, pp. 25:1--25:8, event-place:
+  Richmond, Kentucky. [Online]. Available:
+  \url{http://doi.acm.org/10.1145/3190645.3190697}
 \BIBentrySTDinterwordspacing
 
 \bibitem{lafi_code_2019}
@@ -101,6 +119,14 @@ C.~M. Bishop, \emph{Pattern recognition and machine learning}.\hskip 1em plus
 A.~L. Samuel, ``Some studies in machine learning using the game of checkers.
   {II}—recent progress,'' in \emph{Computer {Games} {I}}.\hskip 1em plus
   0.5em minus 0.4em\relax Springer, 1988, pp. 366--400.
+
+\bibitem{fontana_code_2017}
+\BIBentryALTinterwordspacing
+F.~A. Fontana and M.~Zanoni, ``Code smell severity classification using machine
+  learning techniques,'' \emph{Knowledge-Based Systems}, vol. 128, pp. 43 --
+  58, 2017. [Online]. Available:
+  \url{http://www.sciencedirect.com/science/article/pii/S0950705117301880}
+\BIBentrySTDinterwordspacing
 
 \bibitem{tian_how_2019}
 F.~Tian, P.~Liang, and M.~A. Babar, ``How {Developers} {Discuss} {Architecture}
@@ -177,12 +203,38 @@ N.~Tsuda, H.~Washizaki, Y.~Fukazawa, Y.~Yasuda, and S.~Sugimura, ``Machine
   {Conference} on {Software} {Quality}, {Reliability} and {Security} ({QRS})},
   Jul. 2018, pp. 83--94.
 
+\bibitem{chernis_machine_2018}
+\BIBentryALTinterwordspacing
+B.~Chernis and R.~Verma, ``Machine {Learning} {Methods} for {Software}
+  {Vulnerability} {Detection},'' in \emph{Proceedings of the {Fourth} {ACM}
+  {International} {Workshop} on {Security} and {Privacy} {Analytics}}, ser.
+  {IWSPA} '18.\hskip 1em plus 0.5em minus 0.4em\relax New York, NY, USA: ACM,
+  2018, pp. 31--39, event-place: Tempe, AZ, USA. [Online]. Available:
+  \url{http://doi.acm.org/10.1145/3180445.3180453}
+\BIBentrySTDinterwordspacing
+
 \bibitem{rubin_sniffing_2019}
 J.~Rubin, A.~N. Henniche, N.~Moha, M.~Bouguessa, and N.~Bousbia, ``Sniffing
   {Android} {Code} {Smells}: {An} {Association} {Rules} {Mining}-{Based}
   {Approach},'' in \emph{2019 {IEEE}/{ACM} 6th {International} {Conference} on
   {Mobile} {Software} {Engineering} and {Systems} ({MOBILESoft})}, May 2019,
   pp. 123--127.
+
+\bibitem{ibrahim_reducing_2018}
+\BIBentryALTinterwordspacing
+R.~Ibrahim, M.~Ahmed, R.~Nayak, and S.~Jamel, ``Reducing redundancy of test
+  cases generation using code smell detection and refactoring,'' \emph{Journal
+  of King Saud University - Computer and Information Sciences}, 2018. [Online].
+  Available:
+  \url{http://www.sciencedirect.com/science/article/pii/S1319157818300296}
+\BIBentrySTDinterwordspacing
+
+\bibitem{azadi_poster:_2018}
+U.~Azadi, F.~A. Fontana, and M.~Zanoni, ``Poster: machine learning based code
+  smell detection through {WekaNose},'' in \emph{2018 {IEEE}/{ACM} 40th
+  {International} {Conference} on {Software} {Engineering}: {Companion}
+  {Proceedings} ({ICSE}-{Companion})}.\hskip 1em plus 0.5em minus 0.4em\relax
+  IEEE, 2018, pp. 288--289.
 
 \bibitem{liu_deep_2019}
 H.~Liu, J.~Jin, Z.~Xu, Y.~Bu, Y.~Zou, and L.~Zhang, ``Deep {Learning} {Based}
@@ -198,11 +250,22 @@ X.~Ban, S.~Liu, C.~Chen, and C.~Chua, ``A performance evaluation of deep-learnt
   \url{https://onlinelibrary.wiley.com/doi/abs/10.1002/cpe.5103}
 \BIBentrySTDinterwordspacing
 
+\bibitem{fakhoury_keep_2018}
+S.~Fakhoury, V.~Arnaoudova, C.~Noiseux, F.~Khomh, and G.~Antoniol, ``Keep it
+  simple: {Is} deep learning good for linguistic smell detection?'' in
+  \emph{2018 {IEEE} 25th {International} {Conference} on {Software} {Analysis},
+  {Evolution} and {Reengineering} ({SANER})}, Mar. 2018, pp. 602--611.
+
 \bibitem{wang_using_2018}
 Y.~Wang, S.~Hu, L.~Yin, and X.~Zhou, ``Using {Code} {Evolution} {Information}
   to {Improve} the {Quality} of {Labels} in {Code} {Smell} {Datasets},'' in
   \emph{2018 {IEEE} 42nd {Annual} {Computer} {Software} and {Applications}
   {Conference} ({COMPSAC})}, vol.~01, Jul. 2018, pp. 48--53.
+
+\bibitem{gupta_software_2018}
+A.~Gupta, B.~Suri, V.~Kumar, S.~Misra, T.~Blažauskas, and R.~Damaševičius,
+  ``Software code smell prediction model using {Shannon}, {Rényi} and
+  {Tsallis} entropies,'' \emph{Entropy}, vol.~20, no.~5, p. 372, 2018.
 
 \bibitem{kumar_empirical_2018}
 L.~Kumar and A.~Sureka, ``An {Empirical} {Analysis} on {Web} {Service}
@@ -270,14 +333,6 @@ V.~K. Kulamala, A.~S.~C. Teja, A.~Maru, Y.~Singla, and D.~P. Mohapatra,
   ``Predicting {Software} {Reliability} using {Computational} {Intelligence}
   {Techniques}: {A} {Review},'' in \emph{2018 {International} {Conference} on
   {Information} {Technology} ({ICIT})}, Dec. 2018, pp. 114--119.
-
-\bibitem{fontana_code_2017}
-\BIBentryALTinterwordspacing
-F.~A. Fontana and M.~Zanoni, ``Code smell severity classification using machine
-  learning techniques,'' \emph{Knowledge-Based Systems}, vol. 128, pp. 43 --
-  58, 2017. [Online]. Available:
-  \url{http://www.sciencedirect.com/science/article/pii/S0950705117301880}
-\BIBentrySTDinterwordspacing
 
 \bibitem{noauthor_how_nodate}
 \BIBentryALTinterwordspacing
