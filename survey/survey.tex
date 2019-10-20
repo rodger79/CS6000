@@ -30,20 +30,21 @@
 \maketitle
 
 \section{Abstract}
-Recently, machine learning methods have been applied to detect and correct code smells, but this is a new field and it is not mature.
+Recently, machine learning methods have been applied to detect and correct code smells, but this is a new field and it is not mature. This paper surveys the current scientific research to review the latest information related to machine learning and code smells. An overview of code smells and antipatterns and machine learning is documented. The survey results are organized by topic and cover the current performance, detection methods, improvements to detection methods, using machine learning to correct identified smells, calssifying code smells, and using machine learing to make predictions about source code. 
 
 \section{Introduction}
-A good overview of code smells is covered in \textit{A Survey on software smells} \cite{sharma_survey_2018}. 
-The paper only mentions For my next detailed read I chose a paper called  \textit{A systematic literature review: Refactoring for disclosing code smells in object oriented software} \cite{singh_systematic_2018}. 
-For a survey of ML and code smell detection from 2000-2017, Azeem et al. presented a systematic literature review\cite{azeem_machine_2019}. At the time, they only had 15 related papers to review. 
-This area of study is a rapidly growing field.
-
+A good overview of code smells is covered in \textit{A Survey on software smells} \cite{sharma_survey_2018} and \textit{A systematic literature review: Refactoring for disclosing code smells in object oriented software}\cite{singh_systematic_2018}. 
+Code smell research is a growing field\cite{kokol_code_2018} as demonstrated by the increase in publishing in figure \ref{fig:smellresearch}
+\begin{figure*}[!ht]
+  \centerline{\includegraphics[width=\textwidth]{Dynamicsofcodesmellresearch.png}}
+  %\centerline{\includegraphics[width=\textwidth]{Dynamicsofcodesmellresearch.png}}
+  \caption{Code smell research literature production from 2002 to 2016\cite{kokol_code_2018}}
+  \label{fig:smellresearch}
+\end{figure*} 
+For a survey of ML and code smell detection from 2000-2017, Azeem et al. presented a systematic literature review\cite{azeem_machine_2019}. At the time, they only had 15 related papers to review. Haque et al.\cite{haque_causes_2018} performed a surve on the causes, impacts, and detection approaches of code smells but machine learning was not addressed in detail.
 How many papers included in this survey?
 %read this later
-
-All cause confusion to the reader of the code. Developers spend more time reading than writing (citation?) code. If thesee smells and antipatterns can be detected and corrected, it will lead to more sustainable, more stable code with less time spent by the developer so less cost as well.
-
-Manual analysis would take so much time it is completely impractical from a cost perspecitve.
+This area of study, which is the intersection of machine learning and code smells is a rapidly growing field. 
 
 There are five types of automated code smell detection\cite{lafi_code_2019}, they are:
 \begin{enumerate}
@@ -53,12 +54,21 @@ There are five types of automated code smell detection\cite{lafi_code_2019}, the
 \item Optimization based smell detection
 \item Machine Learning based smell detection
 \end{enumerate}
-
+There are also many different tools\cite{walter_code_2018} that can be used for autometed smell detection.
+Defecienies in automated tools include false-positives and lack of context, limited detection fupport for known smells, and inconsisten smell detection definitions and detectino methods\cite{sharma_detecting_2018}.
 This paper will focus on the fifth type of smell detection which is machine learning.
 
 \subsection{Code Smells and Antipatterns}
+What's interesting about anti-patterns is that they have a very human aspect to them. 
+They overlap the way humans think with the way code is written. 
+They connect common ways of human misunderstanding to software development. 
+Personally, I think most developers expect code to work as they understand it to. 
+They don't spend a lot of time thinking about how code will work in ways they don't expect.
+It is in the nature of most engineers to see things in mathematical/binary ways and ignore the human aspects to what they are working on.
+Example boeing 737 max.
+Code developers expected pilots to respond with typical emergency procedure, but when the errors occurred they pilots were overwhelmed by the amount of feedback they recieved in the cockpit (need reference).
 Code smells are similar to antipatterns, but code smells may not always be bad.
-I've also seen antipatterns referred to as Atoms of Confusion \cite{gopstein_understanding_2017} and nano patterrns, which are very small anti-patterns like the size of a single method. 
+Code smells can alsobe referred to as Atoms of Confusion \cite{gopstein_understanding_2017}, when referring to the smallest methods of definable smells, and nano patterrns, which are very small anti-patterns, around the size of a single method. 
 An example of confusing code is shown below in in \ref{pattern1}.
 Some developers will expect the output to be 25 and some will be 13 because they don't understand intuitively how the macro function works (the correct answer is 13).
 
@@ -73,7 +83,7 @@ int main() {
 }
 \end{lstlisting}
 
-Kent Beck coined the term``code smell'' \cite{fowler_refactoring:_2018} and defined as ``certain structures in the code that suggest (sometimes they scream for) the possibility of refactoring''. They are also sometimes referred to as architecture smells.
+Kent Beck coined the term ``code smell'' \cite{fowler_refactoring:_2018} and defined as ``certain structures in the code that suggest (sometimes they scream for) the possibility of refactoring''. They are also sometimes referred to as architecture smells.
 Some common examples of code smells are as follows:
 \paragraph{Large Class - Bloaters} methods and classes that have grown so large they become unsustainable, and usually accumulate over time.
 \paragraph{Lazy Class} methods and classes so small they are pointless or useless.
@@ -116,7 +126,9 @@ Training
 Training dataset vs test dataset
 
 \section{Results}
-Tian et al.\cite{tian_how_2019} performed a survey on stack overflow related to how developers discuss code smells and antipatterns. They found that developers have difficulty detecting and refactoring code smells due to the lack of available tools and difficulty quantifying the cost.
+Tian et al.\cite{tian_how_2019} and Tahir et al.\cite{tahir_can_2018} performed surveys on stack overflow related to how developers discuss code smells and antipatterns. In \cite{tian_how_2019} they found that developers have difficulty detecting and refactoring code smells due to the lack of available tools and difficulty quantifying the cost.
+
+Variations in how the algorithms are trained, ie developer survey, evolutionary code changes
 \subsection{Topic Maps}
 
 A large topic map of antipatterns and code smells is included below in figure \ref{fig:TM}.
@@ -138,91 +150,106 @@ Figure \ref{fig:ML} focuses on the area of intersection between code smells and 
 Include chart based on source of papers?
 
 \subsection{Machine Learning Code Smell Detection Performance}
+There are somewhat mixed results as far as the perfomance of machine learning algorithms with respect to code smell detection\cite{nucci_detecting_2018}.
 In a comparison of the 32 different machine learning algorithms\cite{arcelli_fontana_comparing_2016} it was determined that the J48 and Random Forest algorithms have the best performance detecting code smells and the support vector machines had the worst performance. They also showed the algorithms had greater than 96\% accuracy and only required 100 training examples to get above 95\%.
 
 The performance of machine learning code smell detection techniques needs to be compared to heuristic methods to determine whether it has better performance. Heruistic methods use detection rules based on software metrics. (Pecorelli et al.) showed\cite{pecorelli_comparing_2019} that their Naive Bayesian machine learning code smell detection algorithm performed at the same level or below the DECOR heuristic method. 
 It can't be said for certian that all machine learning code smell detection will perform at that level as it may be due to the datasets used for training or testing.
 
 \subsection{Code Smell Detection}
-Machine learning algorithms, such as Random Forest, J48 and SVM can be used to detect code smells.\cite{reshi_investigating_2019}. (Reshi and Singh) showed that those algorithms could be used to identify code smells implying that it could be used for preventative maintainence and do document defects or their absence in software. They performed the assessment on the open source Eclipse software so their work could be verifiable. Others have created novel algorithms\cite{kaur_sp-j48:_2019} like a hybrid J48 algorithm with optimization.
+Machine learning algorithms, such as Random Forest, J48 and SVM can be used to detect code smells.\cite{reshi_investigating_2019}\cite{karaduzovic-hadziabdic_comparison_2018}\cite{reshi_predicting_2018}\cite{nucci_detecting_2018}\cite{karaduzovic-hadziabdic_comparison_2018}. In\cite{reshi_investigating_2019}\cite{reshi_predicting_2018} (Reshi and Singh) showed that those algorithms could be used to identify code smells implying that it could be used for preventative maintainence and do document defects or their absence in software. They performed the assessment on the open source Eclipse software so their work could be verifiable. Others have created novel algorithms\cite{kaur_sp-j48:_2019} like a hybrid J48 algorithm with optimization.
+Other papers refer to code smells as ``Evolvability Defects''\cite{tsuda_machine_2018} but use similar methodologies such as training machine learning algorithms to detect them. In\cite{tsuda_machine_2018}, they refer to code smells as evolvability defects and antipatterns as functional defects.
+
 \paragraph{Mobile Applications}
-Code smells in mobile applications could lead to poor performance. Algorithms have been developed\cite{rubin_sniffing_2019} to generate detection rules for Andriod applications.
- networks.
-\paragraph{Defect Prediction}
+Code smells in mobile applications could lead to poor performance. Algorithms have been developed\cite{rubin_sniffing_2019}\cite{ibrahim_reducing_2018} to generate detection rules for Andriod applications. In\cite{ibrahim_reducing_2018}, algorithms have been designed to detect and refactor code semlls for mobile applications.
+
 \paragraph{Techniques and Tools}
 Tian et al.\cite{tian_how_2019} performed a survey on stack overflow related to how developers discuss code smells and antipatterns. 
 They found that developers have difficulty detecting and refactoring code smells due to the lack of available tools and difficulty quantifying the cost.
 Test tools for performance recognizing design smells using iPlasma with the J48 Decision Tree algorithm\cite{singh_systematic_2018} against open source software.
+
 \paragraph{Deep Learning - Neural Networks} The biggest challenge for deep learning based code smell detection\cite{liu_deep_2019} is that it requires larger training datasets than typical machine learning algorithms. In \cite{liu_deep_2019} Liu et al. showed that an automated approach for building training datasets was possible and that Deep Learning could be used to detect code smells.
 In a related area, Ban et al. showed that a deep learning model could be used to identify potential vulnerabilities\cite{ban_performance_2019}, but had poor performance when facing corss-project vulnerability detection.
+Liu et al. focues soley on the ``feature envy'' code smell and used deep learning to identify it in code. They also proposed automation to create their training dataset.
+
+\paragraph{Novel Approaches to Training Datasets}
+Machine learing algorithms need to have a training dataset. One novel approach for that is to use the same codebase over time and use the deltas in code as an evolutionary training dataset\cite{wang_using_2018}. The assumptions for this are that the refactoring that happens over time will correct code smells and the algorithm can train on that dataset. In\cite{wang_using_2018} Wang et al. showed that they could identify code smells in open source datasets based on this model.
+This evolutionary approach is contrary to the idea of software entropy\cite{gupta_software_2018}, which proposes that code will grow more disorderly over time, not less disorderly. The evolutionary approach may not produce consistent results for all code bases.
+
+\paragraph{Detection on Web Services}
+It is possible to predict the occurence of web-service antipatterns using source code metrics and machine learning\cite{kumar_empirical_2018}. In their test Kumar and Sureka demonstrate that Random Forest was the highest performing algorithm.
+
 \subsection{Code Smell Detection Improvements}
 Sharma et al.\cite{sharma_feasibility_2019} look at the feasability of using Transfer-learning to improve the performance of machine learing algorithms when detecting code smells. This opens the opportunity to use transfer learning to do code smell detection on programming languages where smell dection tools are not yet available.
 Using machine learning code smell detection has shown that code smells are a strong predictor of class change proneness\cite{pritam_assessment_2019} with greater than 70\% probability. Software change proneness is related to its quality and sustainability.
 Foidl and Felderer have proposed\cite{foidl_risk-based_2019} a risk-based approach to weight the input data quality of the machine learning algorithm with the impact of the ``badness'' of the identified code smell. 
 This method could help to optimize and prioritize software maintainence efforts for large scale sustainment projects.
 Barbez et al. propose\cite{barbez_machine-learning_2019} an ensemble method based deep learning algorithm for anti pattern detection which had a precision of 48\% vs the heuristic DECOR algorithm which is 35\%. Ensemble learning combines the predictions from multiple nerual
+
 \subsection{Code Smell Correction}
+
 \paragraph{Refactoring} It has been shown that machine learning can be used to automatically fix or propose patches for software\cite{xiong_learning_2018}. For if-statement repair Xiong et al. showed that they could use machine learning to predict code repair with 43.5\% precision.
+
 \paragraph{Smell Removal}
+
 \subsection{Code Smell Classification}
+
 \paragraph{Severity}
-%\subsection{Code Smell Prediction}
 
+\subsection{Code Smell Predictions}
+Machine learning has been used to detect code smells and link those findings to bug predictions\cite{ubayawardana_bug_2018} using Naive Bayesian, Random Forest and Logistic Regression algorithms.
+There are also related studies on defect prediction and software reliability prediction.
+For a survey on the current stat of software defect prediciton\cite{li_progress_2018}. Li et al. have done a thorough survey including publicly available datasets and machine learning.
+Additionally, sofware reliability can be predicting using machine learning techniques\cite{kulamala_predicting_2018}.
 
+\subsection{Training Datasets}
+refer to detection datasets paragraph and consolidate
+%wish I had tracked these as I read through the papers, may need to re-review
+% add table of datasets
+In\cite{li_progress_2018}, they document many publicly available datasets for software defect prediction. This is important to compare the results of research.
+A common public dataset used in many of the papers is from \cite{fontana_code_2017}. It is used in \cite{karaduzovic-hadziabdic_comparison_2018} among others.
 
 \section{Discussion}
-
-\paragraph{What do the Character Need to do or Get (Goal)}
-The anti-patterns need to be understood and identified.
-Once that happens developers can change their best practices.
-The best practices should be created in such a way that the typical misunderstandings of the developer
-
-
-\paragraph{What Character Traits Make them Interesting}
-What's interesting about anti-patterns is that they have a very human aspect to them. 
-They overlap the way humans think with the way code is written. 
-They connect common ways of human misunderstanding to software development. 
-Personally, I think most developers expect code to work as they understand it to. 
-They don't spend a lot of time thinking about how code will work in ways they don't expect.
-It is in the nature of most engineers to see things in mathematical/binary ways and ignore the human aspects to what they are working on.
-Example boeing 737 max.
-Code developers expected pilots to respond with typical emergency procedure, but when the errors occurred they pilots were overwhelmed by the amount of feedback they recieved in the cockpit (need reference).
-\paragraph{What Conflicts/Problems Block the Character}
-
-The problem is people don't realize they are implementing anti-patterns at the time they are writing code.
-The interesting things about it are how do we find them. 
-How do we detect them, and what is the fix when we identify the problem.
-
-\paragraph{How do they Create Risk and Danger}
-Because we know that the anti-patterns cause confusion in the developer, they create risk because they create unstable code. 
-This is risk for the owner of the software and the customer of the developer who uses code
-\paragraph{What Does the Character Do (Struggles) to Reach Goal}
-This is something I think is interesting, is how are these problems identified.
+Most confusiong is in training datasets and identifying code smells
 It isnt' enought to just use expert advice/knowledge. 
 There must be a way to mathematically demonstrate or by experimentation that particular code patterns cause problems.
+This is something I think is interesting, is how are these problems identified.
+The code smells and antipatterns need to be understood and identified.
+Once code smell taxonomies are standardized and identified developers can change their best practices.
+The best practices should be created in such a way that the typical misunderstandings of the developer can be avoided
 
-\paragraph{Who is the Main Character}
-The main character is the anti-pattern. I need to find a way to clearly define the anti-pattern conceptually. 
+All the aforementioned software patterns can cause confusion to the reader of the code. Developers spend more time reading than writing (citation?) code. If thesee smells and antipatterns can be detected and corrected, it will lead to more sustainable, more stable code with less time spent by the developer so less cost as well.
+Manual analysis would take so much time it is completely impractical from a cost perspecitve.
+%\paragraph{Who is the Main Character}
 
-Meaning that an anti-pattern is a known bad problem, where a code smell may lead to a problem.
-An example anti-pattern is shown in listing \ref{pattern1}. Some developers will expect the output to be 25 and some will be 13 because they don't understand intuitively how the macro function works (the correct answer is 13).
-
-On second thought, is the character the developer? 
 And is what is interesting about it their human nature which leads them to confusion?
 I would guess tha most developers think that a compiler is well-defined and bugs in code must be due to lack of understanding not code structure that is good at confusing human nature.
 
-\paragraph{Why is That Goal Important (motive)}
-Note: not many papers about code smells talk about why it is important.
-
-\paragraph{What Sensory Details Will Make the Story Seem Real}
+%\paragraph{What Sensory Details Will Make the Story Seem Real}
 Real world examples of the problem
 Temp Az, person hit by self driving car\cite{noauthor_how_nodate}
 
 \section{Conclusion}
+The problem is people don't realize they are implementing anti-patterns at the time they are writing code.
+The interesting things about it are how do we find them. 
+How do we detect them, and what is the fix when we identify the problem.
+
+Because we know that the anti-patterns cause confusion in the developer, they create risk because they create unstable code. 
+This is risk for the owner of the software and the customer of the developer who uses code
+Machine learning algorithms have been clearly shown to be able to detect code smells, but there is no current standard approach. 
+Performance varies due to different algorithms, and different training dataset approaches. 
+J48 and Random Forest algorithms come up often as having the best performance detecting code smells.
+Beyond the specific algorithms, the training approaches and datasets make a large difference in the performance of the algorithms. 
+There are typical approaches such as surveying developers and more interesing approaches such as evolutionary approache to look at the differences in refactored code.
+This points to the fact that exactly how to identify code smells and consensus on what they are speficically in code are not well defined. Multiple studies showed similar performance to the other (non-machine learning models).
+
+These papers reference above varied widely in the number of code smells they searched for, which algorithms they used, and how they came up with trainin datasets.
+Software sustainment and assurance is one of the most expensive parts of the software lifecycle\cite{li_progress_2018} and this can have a direct impact on lowering that effort and cost.
+
 
 The files for this latex document are in the github repository located at \path{https://github.com/rodger79/CS6000}
 
-\nocite{*}
+%\nocite{*}
 
 %\clearpage
 \bibliographystyle{IEEEtran}
