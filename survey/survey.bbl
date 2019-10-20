@@ -21,6 +21,34 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{sharma_survey_2018}
+\BIBentryALTinterwordspacing
+T.~Sharma and D.~Spinellis, ``A survey on software smells,'' \emph{Journal of
+  Systems and Software}, vol. 138, pp. 158 -- 173, 2018. [Online]. Available:
+  \url{http://www.sciencedirect.com/science/article/pii/S0164121217303114}
+\BIBentrySTDinterwordspacing
+
+\bibitem{singh_systematic_2018}
+\BIBentryALTinterwordspacing
+S.~Singh and S.~Kaur, ``A systematic literature review: {Refactoring} for
+  disclosing code smells in object oriented software,'' \emph{Ain Shams
+  Engineering Journal}, vol.~9, no.~4, pp. 2129 -- 2151, 2018. [Online].
+  Available:
+  \url{http://www.sciencedirect.com/science/article/pii/S2090447917300412}
+\BIBentrySTDinterwordspacing
+
+\bibitem{fowler_refactoring:_2018}
+M.~Fowler, \emph{Refactoring: improving the design of existing code}.\hskip 1em
+  plus 0.5em minus 0.4em\relax Addison-Wesley Professional, 2018.
+
+\bibitem{koenig_patterns_1998}
+A.~Koenig, ``Patterns and antipatterns,'' \emph{The patterns handbook:
+  techniques, strategies, and applications}, vol.~13, p. 383, 1998.
+
+\bibitem{bishop_pattern_2006}
+C.~M. Bishop, \emph{Pattern recognition and machine learning}.\hskip 1em plus
+  0.5em minus 0.4em\relax springer, 2006.
+
 \bibitem{mantyla_taxonomy_2003}
 M.~Mantyla, J.~Vanhanen, and C.~Lassenius, ``A taxonomy and an initial
   empirical study of bad smells in code,'' in \emph{International {Conference}
@@ -57,13 +85,6 @@ N.~Yoshioka, H.~Washizaki, and K.~Maruyama, ``\BIBforeignlanguage{en}{A survey
   \url{http://www.nii.ac.jp/pi/n5/5_35.html}
 \BIBentrySTDinterwordspacing
 
-\bibitem{sharma_survey_2018}
-\BIBentryALTinterwordspacing
-T.~Sharma and D.~Spinellis, ``A survey on software smells,'' \emph{Journal of
-  Systems and Software}, vol. 138, pp. 158 -- 173, 2018. [Online]. Available:
-  \url{http://www.sciencedirect.com/science/article/pii/S0164121217303114}
-\BIBentrySTDinterwordspacing
-
 \bibitem{gopstein_understanding_2017}
 \BIBentryALTinterwordspacing
 D.~Gopstein, J.~Iannacone, Y.~Yan, L.~DeLong, Y.~Zhuang, M.~K.-C. Yeh, and
@@ -73,15 +94,6 @@ D.~Gopstein, J.~Iannacone, Y.~Yan, L.~DeLong, Y.~Zhuang, M.~K.-C. Yeh, and
   0.4em\relax New York, NY, USA: ACM, 2017, pp. 129--139, event-place:
   Paderborn, Germany. [Online]. Available:
   \url{http://doi.acm.org/10.1145/3106237.3106264}
-\BIBentrySTDinterwordspacing
-
-\bibitem{singh_systematic_2018}
-\BIBentryALTinterwordspacing
-S.~Singh and S.~Kaur, ``A systematic literature review: {Refactoring} for
-  disclosing code smells in object oriented software,'' \emph{Ain Shams
-  Engineering Journal}, vol.~9, no.~4, pp. 2129 -- 2151, 2018. [Online].
-  Available:
-  \url{http://www.sciencedirect.com/science/article/pii/S2090447917300412}
 \BIBentrySTDinterwordspacing
 
 \bibitem{li_dlfinder:_2019}
@@ -564,5 +576,10 @@ M.~Hirsch, A.~Rodriguez, J.~M. Rodriguez, C.~Mateos, and A.~Zunino, ``Spotting
   Interfaces}, vol.~56, pp. 116 -- 133, 2018. [Online]. Available:
   \url{http://www.sciencedirect.com/science/article/pii/S0920548917300892}
 \BIBentrySTDinterwordspacing
+
+\bibitem{samuel_studies_1988}
+A.~L. Samuel, ``Some studies in machine learning using the game of checkers.
+  {II}—recent progress,'' in \emph{Computer {Games} {I}}.\hskip 1em plus
+  0.5em minus 0.4em\relax Springer, 1988, pp. 366--400.
 
 \end{thebibliography}

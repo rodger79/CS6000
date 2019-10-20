@@ -26,45 +26,45 @@ Warning--empty year in kaur_international_nodate
 Warning--missing publisher in kriens_software_2019
 
 Done.
-You've used 74 entries,
+You've used 78 entries,
             4087 wiz_defined-function locations,
-            1257 strings with 26078 characters,
-and the built_in function-call counts, 63536 in all, are:
-= -- 5111
-> -- 1567
-< -- 540
-+ -- 836
-- -- 275
-* -- 3233
-:= -- 9339
-add.period$ -- 157
-call.type$ -- 74
-change.case$ -- 84
-chr.to.int$ -- 1329
-cite$ -- 87
-duplicate$ -- 4398
-empty$ -- 5092
-format.name$ -- 334
-if$ -- 14838
+            1279 strings with 26572 characters,
+and the built_in function-call counts, 65544 in all, are:
+= -- 5271
+> -- 1591
+< -- 551
++ -- 850
+- -- 279
+* -- 3307
+:= -- 9664
+add.period$ -- 166
+call.type$ -- 78
+change.case$ -- 86
+chr.to.int$ -- 1353
+cite$ -- 91
+duplicate$ -- 4556
+empty$ -- 5303
+format.name$ -- 338
+if$ -- 15316
 int.to.chr$ -- 0
-int.to.str$ -- 74
-missing$ -- 787
-newline$ -- 319
-num.names$ -- 75
-pop$ -- 1850
+int.to.str$ -- 78
+missing$ -- 811
+newline$ -- 331
+num.names$ -- 79
+pop$ -- 1914
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 4828
+skip$ -- 5000
 stack$ -- 0
-substring$ -- 3188
-swap$ -- 3714
-text.length$ -- 97
+substring$ -- 3252
+swap$ -- 3819
+text.length$ -- 100
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 74
+type$ -- 78
 warning$ -- 13
-while$ -- 299
-width$ -- 76
-write$ -- 840
+while$ -- 308
+width$ -- 80
+write$ -- 873
 (There were 13 warnings)
