@@ -187,6 +187,27 @@ K.~Karađuzović-Hadžiabdić and R.~Spahić, ``Comparison of {Machine}
 J.~A. Reshi and S.~Singh, \emph{Predicting {Software} {Defects} through {SVM}:
   {An} {Empirical} {Approach}}, 2018.
 
+\bibitem{kaur_support_2017}
+A.~Kaur, S.~Jain, and S.~Goel, ``A {Support} {Vector} {Machine} {Based}
+  {Approach} for {Code} {Smell} {Detection},'' in \emph{2017 {International}
+  {Conference} on {Machine} {Learning} and {Data} {Science} ({MLDS})}, Dec.
+  2017, pp. 9--14.
+
+\bibitem{hozano_evaluating_2017}
+M.~Hozano, N.~Antunes, B.~Fonseca, and E.~Costa, ``Evaluating the {Accuracy} of
+  {Machine} {Learning} {Algorithms} on {Detecting} {Code} {Smells} for
+  {Different} {Developers}.'' in \emph{{ICEIS} (2)}, 2017, pp. 474--482.
+
+\bibitem{le_architectural-based_2016}
+\BIBentryALTinterwordspacing
+D.~Le and N.~Medvidovic, ``Architectural-based {Speculative} {Analysis} to
+  {Predict} {Bugs} in a {Software} {System},'' in \emph{Proceedings of the 38th
+  {International} {Conference} on {Software} {Engineering} {Companion}}, ser.
+  {ICSE} '16.\hskip 1em plus 0.5em minus 0.4em\relax New York, NY, USA: ACM,
+  2016, pp. 807--810, event-place: Austin, Texas. [Online]. Available:
+  \url{http://doi.acm.org/10.1145/2889160.2889260}
+\BIBentrySTDinterwordspacing
+
 \bibitem{kaur_sp-j48:_2019}
 \BIBentryALTinterwordspacing
 A.~Kaur, S.~Jain, and S.~Goel, ``{SP}-{J}48: a novel optimization and
@@ -273,6 +294,12 @@ L.~Kumar and A.~Sureka, ``An {Empirical} {Analysis} on {Web} {Service}
   \emph{2018 {IEEE} 42nd {Annual} {Computer} {Software} and {Applications}
   {Conference} ({COMPSAC})}, vol.~01, Jul. 2018, pp. 2--11.
 
+\bibitem{ouni_machine_2017}
+A.~Ouni, M.~Daagi, M.~Kessentini, S.~Bouktif, and M.~M. Gammoudi, ``A {Machine}
+  {Learning}-{Based} {Approach} to {Detect} {Web} {Service} {Design}
+  {Defects},'' in \emph{2017 {IEEE} {International} {Conference} on {Web}
+  {Services} ({ICWS})}, Jun. 2017, pp. 532--539.
+
 \bibitem{sharma_feasibility_2019}
 T.~Sharma, V.~Efstathiou, P.~Louridas, and D.~Spinellis, \emph{On the
   {Feasibility} of {Transfer}-learning {Code} {Smells} using {Deep}
@@ -334,11 +361,35 @@ V.~K. Kulamala, A.~S.~C. Teja, A.~Maru, Y.~Singla, and D.~P. Mohapatra,
   {Techniques}: {A} {Review},'' in \emph{2018 {International} {Conference} on
   {Information} {Technology} ({ICIT})}, Dec. 2018, pp. 114--119.
 
+\bibitem{soltanifar_software_2016}
+\BIBentryALTinterwordspacing
+B.~Soltanifar, S.~Akbarinasaji, B.~Caglayan, A.~B. Bener, A.~Filiz, and B.~M.
+  Kramer, ``Software {Analytics} in {Practice}: {A} {Defect} {Prediction}
+  {Model} {Using} {Code} {Smells},'' in \emph{Proceedings of the 20th
+  {International} {Database} {Engineering} \&\#38; {Applications} {Symposium}},
+  ser. {IDEAS} '16.\hskip 1em plus 0.5em minus 0.4em\relax New York, NY, USA:
+  ACM, 2016, pp. 148--155, event-place: Montreal, QC, Canada. [Online].
+  Available: \url{http://doi.acm.org/10.1145/2938503.2938553}
+\BIBentrySTDinterwordspacing
+
+\bibitem{kaur_evaluation_2017}
+K.~Kaur and P.~Kaur, ``Evaluation of sampling techniques in software fault
+  prediction using metrics and code smells,'' in \emph{2017 {International}
+  {Conference} on {Advances} in {Computing}, {Communications} and {Informatics}
+  ({ICACCI})}, Sep. 2017, pp. 1377--1387.
+
 \bibitem{noauthor_how_nodate}
 \BIBentryALTinterwordspacing
 ``How a {Self}-{Driving} {Uber} {Killed} a {Pedestrian} in {Arizona} - {The}
   {New} {York} {Times}.'' [Online]. Available:
   \url{https://www.nytimes.com/interactive/2018/03/20/us/self-driving-uber-pedestrian-killed.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{noauthor_boeing_nodate}
+\BIBentryALTinterwordspacing
+``Boeing {Underestimated} {Cockpit} {Chaos} on 737 {Max}, {N}.{T}.{S}.{B}.
+  {Says} - {The} {New} {York} {Times}.'' [Online]. Available:
+  \url{https://www.nytimes.com/2019/09/26/business/boeing-737-max-ntsb-mcas.html}
 \BIBentrySTDinterwordspacing
 
 \end{thebibliography}

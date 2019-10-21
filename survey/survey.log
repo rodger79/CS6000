@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.4.21)  20 OCT 2019 16:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.4.21)  21 OCT 2019 05:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -702,27 +702,46 @@ LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <10> not available
 <AntiPattern-TopicMap.png, id=18, 1557.82pt x 1201.48875pt>
 File: AntiPattern-TopicMap.png Graphic file (type png)
 <use AntiPattern-TopicMap.png>
-Package pdftex.def Info: AntiPattern-TopicMap.png  used on input line 141.
+Package pdftex.def Info: AntiPattern-TopicMap.png  used on input line 138.
 (pdftex.def)             Requested size: 516.0pt x 397.95918pt.
 <ML-codesmells.png, id=20, 1148.29pt x 731.73375pt>
 File: ML-codesmells.png Graphic file (type png)
 <use ML-codesmells.png>
-Package pdftex.def Info: ML-codesmells.png  used on input line 147.
+Package pdftex.def Info: ML-codesmells.png  used on input line 144.
 (pdftex.def)             Requested size: 516.0pt x 328.81937pt.
 
-[3] [4 <./AntiPattern-TopicMap.png>] [5 <./ML-codesmells.png>]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 279.
+Underfull \hbox (badness 10000) in paragraph at lines 176--179
+[]\OT1/ptm/m/n/10 As shown above there are many Ma-chine
+ []
 
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+Underfull \hbox (badness 4060) in paragraph at lines 176--179
+\OT1/ptm/m/n/10 learn-ing al-go-rithms that can be used to de-tect code
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--179
+\OT1/ptm/m/n/10 smells[21][22][23][18][22][24][25][26]. In[21][23] (Reshi
+ []
+
+[3]
+Underfull \vbox (badness 2809) has occurred while \output is active []
+
+ [4 <./AntiPattern-TopicMap.png>]
+Underfull \vbox (badness 1019) has occurred while \output is active []
+
+ [5 <./ML-codesmells.png>]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 286.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 279.
+LaTeX Font Info:    Try loading font information for U+msa on input line 286.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 279.
+LaTeX Font Info:    Try loading font information for U+msb on input line 286.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -734,6 +753,7 @@ Missing character: There is no ß in font ptmr7t!
 Missing character: There is no √ in font ptmr7t!
 Missing character: There is no º in font ptmr7t!
 
+[6]
 Underfull \hbox (badness 2103) in paragraph at lines 107--109
 []\OT1/ptm/m/n/8 M. Fowler, \OT1/ptm/m/it/8 Refac-tor-ing: im-prov-ing the de-s
 ign of ex-ist-ing code\OT1/ptm/m/n/8 .
@@ -742,7 +762,6 @@ ign of ex-ist-ing code\OT1/ptm/m/n/8 .
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no î in font ptmr7t!
-[6]
 Missing character: There is no √ in font ptmr7t!
 Missing character: There is no § in font ptmr7t!
 Missing character: There is no √ in font ptmr7t!
@@ -765,6 +784,7 @@ Missing character: There is no ƒ in font ptmr7t!
 Missing character: There is no ç in font ptmr7t!
 Missing character: There is no √ in font ptmr7t!
 Missing character: There is no © in font ptmr7t!
+[7]
 Missing character: There is no √ in font ptmr7t!
 Missing character: There is no © in font ptmr7t!
 Missing character: There is no √ in font ptmr7t!
@@ -788,26 +808,28 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[7] (./survey.aux) ) 
+[8
+
+] (./survey.aux) ) 
 Here is how much of TeX's memory you used:
- 15626 strings out of 492982
- 308136 string characters out of 6134896
- 488493 words of memory out of 5000000
- 18859 multiletter control sequences out of 15000+600000
+ 15633 strings out of 492982
+ 308299 string characters out of 6134896
+ 490605 words of memory out of 5000000
+ 18866 multiletter control sequences out of 15000+600000
  42967 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,8n,66p,630b,1243s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf
--dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/ut
-mri8a.pfb>
-Output written on survey.pdf (7 pages, 304937 bytes).
+ 55i,8n,66p,733b,1241s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr
+i8a.pfb>
+Output written on survey.pdf (8 pages, 308757 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
+ 65 PDF objects out of 1000 (max. 8388607)
+ 43 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  28 words of extra memory for PDF output out of 10000 (max. 10000000)
 
