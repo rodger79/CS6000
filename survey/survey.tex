@@ -29,24 +29,29 @@
 
 \maketitle
 
-\section{Abstract}
-Recently, machine learning methods have been applied to detect and correct code smells, but this is a new field and it is not mature. This paper surveys the current scientific research to review the latest information related to machine learning and code smells. An overview of code smells and antipatterns and machine learning is documented. The survey results are organized by topic and cover the current performance, detection methods, improvements to detection methods, using machine learning to correct identified smells, classifying code smells, and using machine learning to make predictions about source code. Training datasets are also covered in detail as that is a major factor in the performance and results.
+\section*{Abstract}
+Recently, machine learning methods have been applied to detect and correct code smells, but this is a new field and it is not mature. 
+A code smell is a description of a pattern in code that might cause deeper problems. 
+Code smells are not easily found and can vary by programming language and development methodoligies.
+This paper surveys the current scientific research to review the latest information related to machine learning and code smells. 
+An overview of code smells and antipatterns and machine learning is documented. The survey results are organized by topic and cover the current performance, detection methods, improvements to detection methods, using machine learning to correct identified smells, classifying code smells, and using machine learning to make predictions about source code. 
+Training datasets are also covered in detail as that is a major factor in the performance and results.
 
 \section{Introduction}
-Overviews of current research on code smells are covered in \textit{A Survey on software smells} \cite{sharma_survey_2018}, \textit{A systematic literature review: Refactoring for disclosing code smells in object oriented software}\cite{singh_systematic_2018}m and \textit{Smells in software test code: A survey of knowledge in industry and
+This paper is a survey of the latest research on using machine learning in relation to code smells. It focuses on the research published from 2017-2019. For a survey of machine learning and code smell detection from 2000-2017, Azeem et al. presented a systematic literature review\cite{azeem_machine_2019}, and they only had 15 related papers to review. Overviews of current research specifically on code smells are covered in \textit{A Survey on software smells} \cite{sharma_survey_2018}, \textit{A systematic literature review: Refactoring for disclosing code smells in object oriented software}\cite{singh_systematic_2018}m and \textit{Smells in software test code: A survey of knowledge in industry and
 academia}\cite{garousi_smells_2018}. 
 Code smell research is a growing field\cite{kokol_code_2018} as demonstrated by the increase in publishing in figure \ref{fig:smellresearch}.
 \begin{figure*}[!ht]
-  \centerline{\includegraphics[width=\textwidth]{Dynamicsofcodesmellresearch.png}}
+  \centerline{\includegraphics[width=\textwidth]{graph2.png}}
   %\centerline{\includegraphics[width=\textwidth]{Dynamicsofcodesmellresearch.png}}
-  \caption{Code smell research literature production from 2002 to 2016\cite{kokol_code_2018}}
+  \caption{Code smell research literature production from 2002 to October 2019\cite{kokol_code_2018}}
   \label{fig:smellresearch}
 \end{figure*} 
-For a survey of machine learning and code smell detection from 2000-2017, Azeem et al. presented a systematic literature review\cite{azeem_machine_2019}. At the time, they only had 15 related papers to review. Haque et al.\cite{haque_causes_2018} performed a survey on the causes, impacts, and detection approaches of code smells but machine learning was not addressed in detail. 
+Haque et al.\cite{haque_causes_2018} performed a survey on the causes, impacts, and detection approaches of code smells but machine learning was not addressed in detail. 
 This paper focuses exclusively on research related to code smells and machine learning.
 %How many papers included in this survey?
 %read this later
-This area of study, which is the intersection of machine learning and code smells is a rapidly growing field. There are almost no relevant papers before 2016.
+This area of study, which is the intersection of machine learning and code smells is a rapidly growing field. There are very few relevant papers before 2016.
 
 There are five types of automated code smell detection\cite{lafi_code_2019}, they are:
 \begin{enumerate}
@@ -58,7 +63,7 @@ There are five types of automated code smell detection\cite{lafi_code_2019}, the
 \end{enumerate}
 There are also many different tools\cite{walter_code_2018} that can be used for automated smell detection.
 Deficiencies in automated tools include false-positives and lack of context, limited detection support for known smells, and inconsistent smell detection definitions and detection methods\cite{sharma_detecting_2018}.
-This paper will focus on the fifth type of smell detection which is machine learning specifically from 2017-2019.
+This paper will focus on the fifth type of smell detection which is machine learning, specifically from 2017-2019.
 
 \subsection{Code Smells and Antipatterns}
 What's interesting about anti-patterns is that they have a very human aspect to them. 
