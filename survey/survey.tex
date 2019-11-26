@@ -38,9 +38,14 @@ An overview of code smells and antipatterns and machine learning is documented. 
 Training datasets are also covered in detail as that is a major factor in the performance and results.
 
 \section{Introduction}
-This paper is a survey of the latest research on using machine learning in relation to code smells. It focuses on the research published from 2017-2019. For a survey of machine learning and code smell detection from 2000-2017, Azeem et al. presented a systematic literature review\cite{azeem_machine_2019}, and they only had 15 related papers to review. Overviews of current research specifically on code smells are covered in \textit{A Survey on software smells} \cite{sharma_survey_2018}, \textit{A systematic literature review: Refactoring for disclosing code smells in object oriented software}\cite{singh_systematic_2018}m and \textit{Smells in software test code: A survey of knowledge in industry and
+This paper is a survey of the latest research on using machine learning in relation to code smells. It focuses on the research published from 2017-2019. For a survey of machine learning and code smell detection from 2000-2017, Azeem et al. presented a systematic literature review\cite{azeem_machine_2019}, and they only had 15 related papers to review. 
+Some papers use the terms antipatterns and code smells interchangeably\cite{singh_systematic_2018}. 
+For the purposes of this paper, smells are precursors to anti-patterns. 
+A code smell signals that code should be refactored and is an indicator of problem, whereas an antipattern is a definitive problem. 
+The existence of code smells and antipatterns implies that there are going to be problems with software sustainment and imply there are issues with the design.
+Overviews of current research specifically on code smells are covered in \textit{A Survey on software smells} \cite{sharma_survey_2018}, \textit{A systematic literature review: Refactoring for disclosing code smells in object oriented software}\cite{singh_systematic_2018}m and \textit{Smells in software test code: A survey of knowledge in industry and
 academia}\cite{garousi_smells_2018}. 
-Code smell research is a growing field\cite{kokol_code_2018} as demonstrated by the increase in publishing in figure \ref{fig:smellresearch}.
+Code smell research is a growing field\cite{kokol_code_2018} as demonstrated by the increase in publishing shown in figure \ref{fig:smellresearch}.
 \begin{figure*}[!ht]
   \centerline{\includegraphics[width=\textwidth]{graph2.png}}
   %\centerline{\includegraphics[width=\textwidth]{Dynamicsofcodesmellresearch.png}}
@@ -77,7 +82,7 @@ Code smells are similar to antipatterns, but code smells may not always be bad.
 Code smells can also be referred to as Atoms of Confusion \cite{gopstein_understanding_2017}, when referring to the smallest methods of definable smells, and nano patterns, which are very small anti-patterns, around the size of a single method. 
 An example of confusing code is shown below in in \ref{pattern1}.
 Some developers will expect the output to be 25 and some will be 13 because they don't understand intuitively how the macro function works (the correct answer is 13).
-
+\begin{minipage}{\linewidth}
 \begin{lstlisting}[language=C,frame=single,caption=Example Atom of Confusion,label=pattern1]
 #DEFINE M 2+3
 
@@ -88,34 +93,31 @@ int main() {
   return 0;
 }
 \end{lstlisting}
-
+\end{minipage}
 Kent Beck coined the term ``code smell'' \cite{fowler_refactoring:_2018} and defined as ``certain structures in the code that suggest (sometimes they scream for) the possibility of refactoring''. They are also sometimes referred to as architecture smells.
-Some common examples of code smells are as follows:
-\paragraph{Large Class - Bloaters} methods and classes that have grown so large they become unsustainable, and usually accumulate over time.
-\paragraph{Lazy Class} methods and classes so small they are pointless or useless.
-\paragraph{Object-Oriented Abusers} misuse of object-oriented programming principles
-\paragraph{Change Preventers} where multiple places in code need to be updated for a single change made somewhere else.
-\paragraph{Dispensables} pointless or useless code.
-\paragraph{Duplicate} code that is copy and pasted in multiple places in the code base.
-\paragraph{Couplers} excessive coupling between classes.
+Some common categgorizations of code smells are as follows:
+\begin{enumerate}
+\item Large Class - Bloaters: methods and classes that have grown so large they become unsustainable, and usually accumulate over time.
+\item Lazy Class: methods and classes so small they are pointless or useless.
+\item Object-Oriented Abusers: misuse of object-oriented programming principles
+\item Change Preventers: where multiple places in code need to be updated for a single change made somewhere else.
+\item Dispensables: pointless or useless code.
+\item Duplicate: code that is copy and pasted in multiple places in the code base.
+\item Couplers: excessive coupling between classes.
+\end{enumerate}
 
 The term antipattern was coined by Andrew Koenig \cite{koenig_patterns_1998}. 
 It is defined as a commonly reinvented bad solution to a problem.
 Some common examples of antipatterns are as follows:
-\paragraph{Singleton Overuse} Overuse of singletons as they violate information hiding
-\paragraph{Functional Decomposition} functional methods are remnants of procedural languages and conflict with object-oriented practices
-\paragraph{Poltergeist} short-lived, limited functionality object used to perform initialization or invoke methods in another class.
-\paragraph{Spaghetti} very long methods and classes with many lines of code.
-\paragraph{Blob} a class with lots of attributes and methods, which can be unrelated.
-\paragraph{Copy-Paste} code copied multiple times in the code base.
-\paragraph{Lava Flow} Ancient code which can't be modified for fear of introducing errors.
-
-Some papers use the terms antipatterns and code smells interchangeably\cite{singh_systematic_2018}. 
-For the purposes of this paper, smells are precursors to anti-patterns. 
-A code smell signals that code should be refactored and is an indicator of problem, whereas an antipattern is a definitive problem. 
-The existence of code smells and antipatterns implies that there are going to be problems with software sustainment and imply there are issues with the design.
-
-
+\begin{enumerate}
+\item Singleton Overuse: Overuse of singletons as they violate information hiding
+\item Functional Decomposition: functional methods are remnants of procedural languages and conflict with object-oriented practices
+\item Poltergeist: short-lived, limited functionality object used to perform initialization or invoke methods in another class.
+\item Spaghetti: very long methods and classes with many lines of code.
+\item Blob: a class with lots of attributes and methods, which can be unrelated.
+\item Copy-Paste: code copied multiple times in the code base.
+\item Lava Flow: Ancient code which can't be modified for fear of introducing errors.
+\end{enumerate}
 \subsection{Machine Learning}
 Machine learning is defined as computers learning to solve problems without being explicitly programmed, although they are ``trained''\cite{bishop_pattern_2006}. 
 Arthur Samuel coined the term Machine Learning in 1959\cite{samuel_studies_1988}.
@@ -131,22 +133,26 @@ Machine learning techniques have been used for many different aspects of softwar
 
 Comment: include info on Training dataset vs test dataset, Variations in how the algorithms are trained, ie developer survey, evolutionary code changes
 
-\section{Results}
+\section{Results amd Discussion}
 Tian et al.\cite{tian_how_2019} and Tahir et al.\cite{tahir_can_2018} performed surveys on stack overflow related to how developers discuss code smells and antipatterns. In \cite{tian_how_2019} they found that developers have difficulty detecting and refactoring code smells due to the lack of available tools and difficulty quantifying the cost.
 
 \subsection{Topic Maps}
 
-A large topic map of antipatterns and code smells is included below in figure \ref{fig:TM}.
-Machine learning is emphasized with a red circle. 
-Figure \ref{fig:ML} focuses on the area of intersection between code smells and machine learning.
+Prior to the surve of code smells and machine learning, a preliminary survey of code smells and antipatterns was performed. The results of the preliminary survey are shown in figure \ref{fig:TM}.
+
 \begin{figure*}[ht]
-  \centerline{\includegraphics[width=\linewidth]{AntiPattern-TopicMap.png}}
+  \centerline{\includegraphics[width=\linewidth]{AntiPattern-TopicMap11-23.png}}
   \caption{High level topic map on code smells and antipatterns}
   \label{fig:TM}
 \end{figure*} 
 
+Machine learning is emphasized with a red circle. 
+After finding multiple thorough surveys of code smells, the focus was narrowed to the intersection of machine learning and code smells.
+
+Figure \ref{fig:ML} focuses on the area of focus between code smells and machine learning.
+
 \begin{figure*}[!ht]
-  \centerline{\includegraphics[width=\textwidth]{ML-codesmells.png}}
+  \centerline{\includegraphics[width=\textwidth]{ML-codesmells11-23.png}}
   %\includegraphics[width=\columnwidth]{ML-codesmells.png}
   \caption{Detail of topic map on machine learning related to code smells and antipatterns}
   \label{fig:ML}
@@ -248,19 +254,18 @@ In\cite{li_progress_2018}, they document many publicly available datasets for so
 A common public dataset used in many of the papers is from \cite{fontana_code_2017}. It is used in \cite{karaduzovic-hadziabdic_comparison_2018} among others.
 Not all training material is equal\cite{fakhoury_keep_2018}, and for some problems like bug prediction there are abundant datasets, but other problems may require significant effort to build relevant labeled datasets.
 
-In Kaur and Kaur\cite{kaur_evaluation_2017}, they try to address the problem of poor performance of machine learning due to imbalanced datasets. In their experiments they evaluated 23 machine learning algorithms  and showed that code smells and metrics together outperformed testing against software metrics alone which agrees with the results from\cite{chernis_machine_2018}.
-
-\section{Discussion}
-Most confusion is in training datasets and identifying code smells because they can be subjectively interpreted.
-Additionally it isn't enough to just use expert advice/knowledge unless it has been experimentally shown to be correct code smells. 
-There must be a way to mathematically demonstrate or by experimentation that particular code patterns cause problems.
+In Kaur and Kaur\cite{kaur_evaluation_2017}, they try to address the problem of poor performance of machine learning due to imbalanced datasets. 
+In their experiments they evaluated 23 machine learning algorithms  and showed that code smells and metrics together outperformed testing against software metrics alone which agrees with the results from\cite{chernis_machine_2018}.
+\subsection{Discussion}
 The big challenge in this field seems to be the best way to identify code smells and how training datasets are labeled and created.
+There is a lot of inconsistency in training datasets and identifying code smells because they can be subjectively interpreted.
+Additionally, expert advice and knowledge may be able to help identify code smells, using it to train datasets may not be effective unless it has been experimentally shown to be result in finding code smells. 
 
 Beyond just sustainment and refactoring code, code smells and antipatterns need to be understood and identified.
 Once code smell taxonomies are standardized and identified developers can change their best practices to prevent the introduction of these problems.
 The best practices should be created in such a way that the typical misunderstandings of the developer can be avoided.
 
-All the aforementioned software patterns can cause confusion to the reader of the code. Developers spend more time reading than writing (citation?) code. If these smells and antipatterns can be detected and corrected, it will lead to more sustainable, more stable code with less time spent by the developer so less cost as well.
+All the aforementioned software patterns can cause confusion to the reader of the code. Developers spend more time reading than writing code. If these smells and antipatterns can be detected and corrected, it will lead to more sustainable, more stable code with less time spent by the developer so less cost as well.
 %\paragraph{Who is the Main Character}
 
 \section{Conclusion}
