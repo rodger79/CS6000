@@ -1,6 +1,6 @@
 \documentclass[conference]{IEEEtran}
 %\renewcommand{\thesubsection}{\thesection.\alph{subsection}}
-
+\renewcommand{\floatpagefraction}{.8}%
 %\addtolength{\oddsidemargin}{-.875in}
 %\addtolength{\evensidemargin}{-.875in}
 %\addtolength{\textwidth}{1.75in}
@@ -18,6 +18,8 @@
 \usepackage{filecontents,lipsum}
 \usepackage[noadjust]{cite}
 \usepackage{listings}
+
+
 
 \begin{document}
 %\raggedright
@@ -48,18 +50,20 @@ This research will compare training datasets and code smell definitions for perf
 
 Figure \ref{fig:ts} show the "potential" results of comparison by algorithm. 
 
-\begin{figure*}[ht]
-  \centerline{\includegraphics[width=\linewidth]{teaser.png}}
-  \caption{Performance of code smell detection algorithm by training dataset}
+\begin{figure*}[ht]{
+  \includegraphics[width=\columnwidth]{teaser.png}}
+  \caption{Training Data Performance}
   \label{fig:ts}
 \end{figure*} 
 
 \section{The Approach}
 The approach to this research will be to compare training datasets for performance in detecting code smells.
+Common existing public datasets will be compared using the highest performing algorithms to determine which has the best performance.
 
 \section{Experimental Design}
-
+A formal section on Experimental Design and datasets 
 \section{Hypothesis and Stastical Testing}
+A formal section on the hypothesis and Statistical Testing for that hypothesis for your given design and the outcomes of the experiments.
 
 \section{Research Plan}
 
@@ -67,7 +71,7 @@ The approach to this research will be to compare training datasets for performan
 
 %Relevan papers are referenced in the bibliography below. 
 %\nocite{*}
-\clearpage
+%\clearpage
 
 
 \bibliographystyle{IEEEtran}
