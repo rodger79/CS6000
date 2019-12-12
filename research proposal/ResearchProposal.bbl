@@ -34,4 +34,12 @@ A.~L. Samuel, ``Some studies in machine learning using the game of checkers.
   {II}—recent progress,'' in \emph{Computer {Games} {I}}.\hskip 1em plus
   0.5em minus 0.4em\relax Springer, 1988, pp. 366--400.
 
+\bibitem{arcelli_fontana_comparing_2016}
+\BIBentryALTinterwordspacing
+F.~Arcelli~Fontana, M.~V. Mäntylä, M.~Zanoni, and A.~Marino, ``Comparing and
+  experimenting machine learning techniques for code smell detection,''
+  \emph{Empirical Software Engineering}, vol.~21, no.~3, pp. 1143--1191, Jun.
+  2016. [Online]. Available: \url{https://doi.org/10.1007/s10664-015-9378-4}
+\BIBentrySTDinterwordspacing
+
 \end{thebibliography}
