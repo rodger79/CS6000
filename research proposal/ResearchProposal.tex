@@ -18,7 +18,7 @@
 \usepackage{filecontents,lipsum}
 \usepackage[noadjust]{cite}
 \usepackage{listings}
-
+\usepackage{caption}
 
 
 \begin{document}
@@ -48,11 +48,16 @@ This research will compare training datasets and code smell definitions for perf
 
 Figure \ref{fig:ts} show the "potential" results of comparison by algorithm. 
 
-\begin{figure*}[ht]{
-  \includegraphics[width=\columnwidth]{teaser.png}}
-  \caption{Training Data Performance}
-  \label{fig:ts}
-\end{figure*} 
+\begin{center}
+\includegraphics[width=\columnwidth]{teaser.png}
+\captionof{figure}{Training Data Performance}\label{fig:ts}%
+\end{center}
+
+%\begin{figure*}[ht]{
+% \includegraphics[width=\columnwidth]{teaser.png}}
+%  \caption{Training Data Performance}
+%  \label{fig:ts}
+%\end{figure*} 
 
 \section{The Approach}
 The approach to this research will be to compare training datasets for performance in detecting code smells.
@@ -62,26 +67,41 @@ Common existing public datasets will be compared using the highest performing al
 %A formal section on Experimental Design and datasets 
 The experiment will test accuracy on performace of algorithms using different training dataset approaches.
 The following approaches to creating training datasets are: 
-\enumerate
+\begin{enumerate}
 \item datasets created by software experts
 \item datasets created by performing a survey of software developers 
 \item datasets used in other published experiments
 \item automated dataset generation
 \item using public code base changes to identify code corrections and the implied code smells
-\endenumerate
+\end{enumerate}
 A single machine learning algorithm will be used for all testing. 
 From previousl research\cite{arcelli_fontana_comparing_2016}, the J48 and Random Forest algorithms are the highest performing when compared against other algorithms using the same training data.
 %how to use more than one algorithm
+The experiment will compare perfomance in correctly identifying code smells and the type of smells that can be identified. 
+An example table is shown in figure \ref{fig:acc}.
+
+\begin{center}
+\includegraphics[width=\columnwidth]{performance.png}
+\captionof{figure}{Training Data Accuracy}\label{fig:acc}%
+\end{center}
+
+A second part of the research will be to see if the training datasets can be optimized and improved based off of the first part of the experiment.
 
 \section{Hypothesis and Stastical Testing}
 %A formal section on the hypothesis and Statistical Testing for that hypothesis for your given design and the outcomes of the experiments.
 \subsection{Hypothesis}
-Hypothesis 1: Different training datasets will have varying performance. They can more accurately identify code smells and identify a broader set of code smell types.
-Hypothesis 2: Highest performing datasets can be optimized and improved
+There are a few hypothesis to test:
+\begin{enumerate}
+
+\item Training datasets will have varying performance
+\item They can more accurately identify code smells and identify a broader set of code smell types
+\item Datasets can be optimized and improved
+
+\end{enumerate}
 \subsection{Stastical Testing}
 Statistical testing will be performed by comparing training datasets with regards to their behavior and coverage.
 
-T-tests will be performed to determine if the results from the research is significant, and if so, by how much.
+T-tests will be performed to determine if the results from the research is significant, and if so, by how much. 
 
 \section{Research Plan and Timeline}
 Beginning Springs 2020 the following milestones will be met:
