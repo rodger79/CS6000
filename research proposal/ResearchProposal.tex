@@ -30,16 +30,26 @@
 \maketitle
 
 \section{Introduction to the Problem}
+This proposal is for research involving machine learning and code smells.
+A lot of previous research has been done on the performance of different algorithms and the detecting of different subsections of code smells.
+This paper will focus on training datasets with regard to machine learning and code smells. 
+Many different approaches have been taken with regards to training datasets, but they haven't been compared for effectiveness in training the machine learning algorithms.
+
+
 A code smell is a description of a pattern in code that might cause deeper problems. 
 Code smells are not easily found and can vary by programming language and development methodoligies.
 The existence of code smells and antipatterns implies that there are potential problems with software sustainment and imply there are issues with the design.
 Kent Beck coined the term ``code smell'' \cite{fowler_refactoring:_2018} and defined as ``certain structures in the code that suggest (sometimes they scream for) the possibility of refactoring''.
 Machine learning is defined as computers learning to solve problems without being explicitly programmed, although they are ``trained''\cite{bishop_pattern_2006}. 
 Arthur Samuel coined the term Machine Learning in 1959\cite{samuel_studies_1988}.
+
+
 Machine learning is a subset of artificial intelligence. 
 It uses algorithms and statistical models to execute a task without explicitly being programmed.
 Machine learning is used in a wide variety of applications such as email spam filtering, search engines, video surveillance, and image curation.
-The big challenge in this field seems to be the best way to identify code smells and how training datasets are labeled and created.
+
+
+A big challenge in this field determining the best way to identify code smells and how training datasets are labeled and created.
 There is a lot of inconsistency in training datasets and identifying code smells because they can be subjectively interpreted.
 Additionally, expert advice and knowledge may be able to help identify code smells, using it to train datasets may not be effective unless it has been experimentally shown to be result in finding code smells. 
 
@@ -47,6 +57,9 @@ It is difficult to compare the results of previous research due to the variabili
 This research will compare training datasets and code smell definitions for performance.
 
 Figure \ref{fig:ts} show the "potential" results of comparison by algorithm. 
+
+There are many existing public training datasets that can be compared such as the research performed by Fontana et al.\cite{arcelli_fontana_comparing_2016} 
+The different studies comparing machine learning performance with regard to code smells vary, and don't all study the same smells.
 
 \begin{center}
 \includegraphics[width=\columnwidth]{teaser.png}
@@ -101,16 +114,20 @@ There are a few hypothesis to test:
 \subsection{Stastical Testing}
 Statistical testing will be performed by comparing training datasets with regards to their behavior and coverage.
 
-T-tests will be performed to determine if the results from the research is significant, and if so, by how much. 
+T-tests will be performed to determine if the results from the research is significant, and if so, by how much. Results will be provided, an example is provided in figure \ref{fig:stat}.
+\begin{center}
+\includegraphics[width=\columnwidth]{statistics.png}
+\captionof{figure}{Test Results}\label{fig:stat}%
+\end{center}
 
 \section{Research Plan and Timeline}
-Beginning Springs 2020 the following milestones will be met:
-\begin{enumerate}
-\item The commitee for thesis will be identified
-\item The research proposal will be presented to the committee for approval.
-\item Research will begin
-\end{enumerate}
+Beginning Fall 2019 the project milestones are identified in figure \ref{fig:sch}.
+\begin{center}
+\includegraphics[width=\columnwidth]{schedule.png}
+\captionof{figure}{Schedule}\label{fig:sch}%
+\end{center}
 
+Scope and schedule may need to change as the research project progresses.
 %Relevan papers are referenced in the bibliography below. 
 %\nocite{*}
 %\clearpage
